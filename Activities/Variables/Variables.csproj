@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72CE242F-152C-49D9-9C45-1FBC1F9CA70D}</ProjectGuid>
+    <ProjectTypeGuids>{32f31d43-81cc-4c15-9de6-3fc5453562b6};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Impac.Mosaiq.IQ.Activities.Variables</RootNamespace>
+    <AssemblyName>Impac.Mosaiq.IQ.Activities.Variables</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\Run\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\Run\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\..\..\Run\Impac.Mosaiq.IQ.Activities.Variables.XML</DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Printing.v11.1.Core, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="IdeaBlade.Persistence, Version=3.7.5.0, Culture=neutral, PublicKeyToken=287b5094865421c0, processorArchitecture=MSIL" />
+    <Reference Include="IdeaBlade.Persistence.Rdb, Version=3.7.5.0, Culture=neutral, PublicKeyToken=287b5094865421c0, processorArchitecture=MSIL" />
+    <Reference Include="IdeaBlade.Util, Version=3.7.5.0, Culture=neutral, PublicKeyToken=287b5094865421c0, processorArchitecture=MSIL" />
+    <Reference Include="Impac.Mosaiq.BOM.Entities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Charting.CommonUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Charting.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Charting.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Charting.Documents.DocumentFunctions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Charting.Documents.DocumentFunctions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Charting.Documents.EscribeCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Charting.Documents.EscribeCommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Charting.ExternalFormulary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.Security.DBConnectionLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Core.Security.DBConnectionLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Framework.Data">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.BOM.SupportLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.BOM.Views, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.Defs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.ErrorReportingSystem.ErrorReportingSystem_CS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.EventNotification, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.Globals, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.Security.SecurityLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.SystemProfiling, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.Toolbox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.Xlate, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.UI.Controller, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.UI.Controller.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.UI.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.UI.Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.UI.InputTemplates, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.UI.InputTemplatesWindows, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.UI.InputTemplatesWindows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Widgets.General.CarePlanWidgets, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Widgets.General.CarePlanWidgets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Widgets.General.ObsDefConfig, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Widgets.General.ObsDefConfig.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MosaiqInterop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Core.Presentation" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Charting\Details\IQCdsReferenceVarDetail.cs" />
+    <Compile Include="Charting\Details\IQDataItemThresholdsVarDetail.cs" />
+    <Compile Include="Charting\Details\IQDiagnosisCodeVarDetail.cs" />
+    <Compile Include="Charting\Details\IQObsDefTableItemVarDetail.cs" />
+    <Compile Include="Charting\Editors\CdsReferenceSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Charting\Editors\CdsReferenceSelector.designer.cs">
+      <DependentUpon>CdsReferenceSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Charting\Editors\DataItemThresholdsSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Charting\Editors\DataItemThresholdsSelector.designer.cs">
+      <DependentUpon>DataItemThresholdsSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Charting\Editors\DrugSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Charting\Editors\DrugSelector.designer.cs">
+      <DependentUpon>DrugSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Charting\IQCdsReferenceVarActivity.cs" />
+    <Compile Include="Charting\IQDataItemThresholdsVarActivity.cs" />
+    <Compile Include="Charting\IQDiagnosisCodeVarActivity.cs" />
+    <Compile Include="Charting\IQDocumentTypeVarActivity.cs" />
+    <Compile Include="Charting\IQEscribeTemplateVarActivity.cs" />
+    <Compile Include="Charting\IQTableItemVarActivity.cs" />
+    <Compile Include="Charting\Details\IQDrugVarDetail.cs" />
+    <Compile Include="Charting\Details\IQNoteTypeVarDetail.cs" />
+    <Compile Include="Charting\IQDrugVarActivity.cs" />
+    <Compile Include="Charting\Details\IQCareplanVarDetail.cs" />
+    <Compile Include="Charting\Details\IQFlowsheetVarDetail.cs" />
+    <Compile Include="Charting\Details\IQObsDefLabelVarDetail.cs" />
+    <Compile Include="Common\Editor\MemoValueEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Editor\MemoValueEditor.Designer.cs">
+      <DependentUpon>MemoValueEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IQVarTabGroupActivity.cs" />
+    <Compile Include="IQVarTabGroupActivityDesigner.xaml.cs">
+      <DependentUpon>IQVarTabGroupActivityDesigner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NTStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NTStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PM\Details\IQConfigVarDetail.cs" />
+    <Compile Include="PM\Details\IQProcedureVarDetail.cs" />
+    <Compile Include="Charting\Editors\FlowsheetItemTypeSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Charting\Editors\FlowsheetItemTypeSelector.Designer.cs">
+      <DependentUpon>FlowsheetItemTypeSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Charting\Editors\FlowsheetItemSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Charting\Editors\FlowsheetItemSelector.designer.cs">
+      <DependentUpon>FlowsheetItemSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Charting\Editors\FlowsheetTabSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Charting\Editors\FlowsheetTabSelector.designer.cs">
+      <DependentUpon>FlowsheetTabSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Charting\Editors\NoteTypeSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Charting\Editors\NoteTypeSelector.designer.cs">
+      <DependentUpon>NoteTypeSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Charting\Formatter\FlowsheetItemTypeFormatter.cs" />
+    <Compile Include="Charting\Formatter\FlowsheetTabFormatter.cs" />
+    <Compile Include="Charting\IQCareplanVarActivity.cs" />
+    <Compile Include="Charting\IQDataItemVarActivity.cs" />
+    <Compile Include="Charting\IQFlowsheetVarActivity.cs" />
+    <Compile Include="Charting\IQNoteTypeVarActivity.cs" />
+    <Compile Include="PM\Details\IQQclTaskVarDetail.cs" />
+    <Compile Include="PM\Details\IQStaffTypeOrCategoryVarDetail.cs" />
+    <Compile Include="PM\Editors\DepartmentSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PM\Editors\DepartmentSelector.designer.cs">
+      <DependentUpon>DepartmentSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PM\Editors\StaffTypeOrCategorySelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PM\Editors\StaffTypeOrCategorySelector.designer.cs">
+      <DependentUpon>StaffTypeOrCategorySelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PM\IQDepartmentVarActivity.cs" />
+    <Compile Include="PM\IQProcedureVarActivity.cs" />
+    <Compile Include="Charting\IQTabViewVarActivity.cs" />
+    <Compile Include="Common\Details\IQDateTimeVarDetail.cs" />
+    <Compile Include="Common\Details\IQIntegerVarDetail.cs" />
+    <Compile Include="Common\Details\IQTimeSpanRelativeVarDetail.cs" />
+    <Compile Include="Common\Editor\DateValueEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Editor\DateValueEditor.Designer.cs">
+      <DependentUpon>DateValueEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Editor\IntegerValueEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Editor\IntegerValueEditor.Designer.cs">
+      <DependentUpon>IntegerValueEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Editor\TimeSpanRelativeValueEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Editor\TimeSpanRelativeValueEditor.Designer.cs">
+      <DependentUpon>TimeSpanRelativeValueEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\IQDateVarActivity.cs" />
+    <Compile Include="Common\IQIntegerVarActivity.cs" />
+    <Compile Include="Common\IQTimeSpanRelativeVarActivity.cs" />
+    <Compile Include="Common\Details\IQBooleanVarDetail.cs" />
+    <Compile Include="Common\Details\IQDoubleVarDetail.cs" />
+    <Compile Include="Common\Details\IQEnumVarDetail.cs" />
+    <Compile Include="Common\Details\IQStringVarDetail.cs" />
+    <Compile Include="Common\Details\IQDateRangeVarDetail.cs" />
+    <Compile Include="Common\Editor\BooleanValueEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Editor\BooleanValueEditor.Designer.cs">
+      <DependentUpon>BooleanValueEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Editor\DateRangesSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Editor\DateRangesSelectForm.Designer.cs">
+      <DependentUpon>DateRangesSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Editor\DateRangeValueEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Editor\DateRangeValueEditor.Designer.cs">
+      <DependentUpon>DateRangeValueEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Editor\DoubleValueEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Editor\DoubleValueEditor.Designer.cs">
+      <DependentUpon>DoubleValueEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Editor\StringValueEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Editor\StringValueEditor.Designer.cs">
+      <DependentUpon>StringValueEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Formatter\DateRangesFormatter.cs" />
+    <Compile Include="Common\IQBooleanVarActivity.cs" />
+    <Compile Include="Common\IQDoubleVarActivity.cs" />
+    <Compile Include="Common\IQEnumVarActivity.cs" />
+    <Compile Include="Common\IQStringVarActivity.cs" />
+    <Compile Include="Common\IQDateRangeVarActivity.cs" />
+    <Compile Include="PM\IQCodeGroupVarActivity.cs" />
+    <Compile Include="PM\Details\IQPatientVarDetail.cs" />
+    <Compile Include="PM\Details\IQPromptVarDetail.cs" />
+    <Compile Include="PM\Details\IQStaffVarDetail.cs" />
+    <Compile Include="PM\IQPatientVarActivity.cs" />
+    <Compile Include="PM\IQQclTaskVarActivity.cs" />
+    <Compile Include="PM\IQStaffTypeOrCategoryVarActivity.cs" />
+    <Compile Include="PM\IQStaffLocVarActivity.cs" />
+    <Compile Include="PM\IQStaffTypeVarActivity.cs" />
+    <Compile Include="PM\IQStaffVarActivity.cs" />
+    <Compile Include="PM\IQLocationVarActivity.cs" />
+    <Compile Include="GeneratedAttributes.cs" />
+    <Compile Include="IQVarGroupActivity.cs" />
+    <Compile Include="IQVarGroupActivityDesigner.xaml.cs">
+      <DependentUpon>IQVarGroupActivityDesigner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\DataSources\Impac.Mosaiq.IQ.Activities.Variables.Charting.Editors.FlowsheetItemType.datasource" />
+    <None Include="Properties\DataSources\Impac.Mosaiq.IQ.Common.Variables.IQEnum.datasource" />
+    <None Include="Properties\DataSources\Impac.Mosaiq.IQ.Common.Variables.IQEnumVar.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Charting\Editors\CdsReferenceSelector.resx">
+      <DependentUpon>CdsReferenceSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Charting\Editors\DataItemThresholdsSelector.resx">
+      <DependentUpon>DataItemThresholdsSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Charting\Editors\DrugSelector.resx">
+      <DependentUpon>DrugSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Charting\Editors\FlowsheetItemTypeSelector.resx">
+      <DependentUpon>FlowsheetItemTypeSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Charting\Editors\FlowsheetItemSelector.resx">
+      <DependentUpon>FlowsheetItemSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Charting\Editors\FlowsheetTabSelector.resx">
+      <DependentUpon>FlowsheetTabSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Charting\Editors\NoteTypeSelector.resx">
+      <DependentUpon>NoteTypeSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Editor\BooleanValueEditor.resx">
+      <DependentUpon>BooleanValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Editor\MemoValueEditor.resx">
+      <DependentUpon>MemoValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Editor\DateValueEditor.resx">
+      <DependentUpon>DateValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Editor\IntegerValueEditor.resx">
+      <DependentUpon>IntegerValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Editor\TimeSpanRelativeValueEditor.resx">
+      <DependentUpon>TimeSpanRelativeValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Editor\DateRangesSelectForm.resx">
+      <DependentUpon>DateRangesSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Editor\DateRangeValueEditor.resx">
+      <DependentUpon>DateRangeValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Editor\DoubleValueEditor.resx">
+      <DependentUpon>DoubleValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Editor\StringValueEditor.resx">
+      <DependentUpon>StringValueEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NTStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NTStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PM\Editors\DepartmentSelector.resx">
+      <DependentUpon>DepartmentSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PM\Editors\StaffTypeOrCategorySelector.resx">
+      <DependentUpon>StaffTypeOrCategorySelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.csproj">
+      <Project>{FEA47035-45A9-45C4-AF9D-C7F5FC1DE549}</Project>
+      <Name>Common</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Definitions\Definitions.csproj">
+      <Project>{9079DF6E-EC54-43F9-8858-97841FE7480C}</Project>
+      <Name>Definitions</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Framework\Framework.csproj">
+      <Project>{D752CB5F-5AB9-4183-B211-07334C9FE262}</Project>
+      <Name>Framework</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="IQVarTabGroupActivityDesigner.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="IQVarGroupActivityDesigner.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>$(TargetDir)AttributeGenerator.exe $(ProjectDir)Strings.resx $(ProjectDir)GeneratedAttributes.cs $(TargetName)</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="impacLayoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="impacLayoutControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="impacLayoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="impacLayoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 193</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="impacLayoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="impacLayoutControl1.Text" xml:space="preserve">
+    <value>impacLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;impacLayoutControl1.Name" xml:space="preserve">
+    <value>impacLayoutControl1</value>
+  </data>
+  <data name="&gt;&gt;impacLayoutControl1.Type" xml:space="preserve">
+    <value>Impac.Mosaiq.UI.Controls.LayoutControls.ImpacLayoutControl, Impac.Mosaiq.UI.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;impacLayoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;impacLayoutControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="barManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="barButtonItemOK.Caption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="barButtonItemOK.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOpgAA
+        DqYBh9ypbwAAAYVJREFUKFOtkt8rQ2EYx9dp1su71IZN2taU5lgdtgsTF9TaDffa1dzOpRxH4YK05Ud+
+        NoTR8iMR+VHyI0qNuONP+nBOaUm7UJ761Pd9er7P+/S8r832H2HX7dSM1FBv1OMecWM37JTtK6YELsNF
+        dDGKtqWh5lWaN5sJzYWoNqpxZpy/zZV6JTIrUXIKYlsgdyVyRyI2BUpWwZzgx41iXGCbsCHzkrq9OnyH
+        PoJHQQtT1xZqcUw5qJqsKhmVYQVnzon/0I96ohI5i9B+3m5havVYxbvuRYx9Nf+OCqOChkID2qlG12UX
+        iesEfbd9FqY2c+qBihyXJZN5aMw30nnRaRUmH5MMPA1YmLr3phetoOGadJVM3hkvvgUf8as4yYckg8+D
+        6G+6RbqYpv++n6blJvzz/p/L8Ex76NjrIPWYQn/VyX5kybxnGHoZome/h8BM4PfKwxthgrNBYtsxUtcp
+        RoujpO/SdO92E1oIEd2Kln/k8GqYlqUWtBWN1pVW2tbayhf/5Qt+AmFixVeervcPAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="barButtonItemCancel.Caption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="barButtonItemCancel.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOpgAA
+        DqYBh9ypbwAAAStJREFUKFNjYKAUzDRm+I/NDFziDJ0SDP8PpYX/n6yJqnGyFsP/3alB/yeqMKEa2KvA
+        8P9UXsr/5+3t/9cba/6fbgDROE2X4f/p3CSw+CJNGbg43DVdUgz/jxrq/b/v6fl/o7zYf5CGzS6G/596
+        ef0/pK/1H2QjVu/3A208xMHx/yk39/8XQPwSiE9xcvyfiuZkDM1TlBn+32Rg+P8ZiN8C8RRZHDbAdM4A
+        +mUnC8P/90DFX4D4JxCfZmb4DxLH6rSpQD9sB2p4Gxf3/xbIBl6G/zeA9Gsg3sLKAPYjikZQMK9iZPj/
+        GKjhDFBRvzBEwSQxhv9XgPzbQLyQiQEjOhjaRYCBAJRs5UI1sRtowFGgeDUQrxBCs22BDMP/FgHsbm8C
+        OnWeOIEAIZQcAYQJj8bXTBUfAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bar1.Text" xml:space="preserve">
+    <value>Custom 2</value>
+  </data>
+  <data name="barDockControlTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="barDockControlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="barDockControlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 29</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="barDockControlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="barDockControlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 222</value>
+  </data>
+  <data name="barDockControlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 0</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="barDockControlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="barDockControlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="barDockControlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 193</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="barDockControlRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="barDockControlRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 29</value>
+  </data>
+  <data name="barDockControlRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 193</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>39</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>572, 222</value>
+  </data>
+  <data name="textStringInput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 55</value>
+  </data>
+  <data name="textStringInput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textStringInput.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="textStringInput.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="textStringInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 23</value>
+  </data>
+  <data name="textStringInput.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textStringInput.Name" xml:space="preserve">
+    <value>textStringInput</value>
+  </data>
+  <data name="&gt;&gt;textStringInput.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textStringInput.Parent" xml:space="preserve">
+    <value>impacLayoutControl2</value>
+  </data>
+  <data name="&gt;&gt;textStringInput.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboTableItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 169</value>
+  </data>
+  <data name="comboTableItems.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v11.1" name="DevExpress.Utils.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="comboTableItems.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v11.1">
+    <value>Combo</value>
+  </data>
+  <data name="comboTableItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 21</value>
+  </data>
+  <data name="comboTableItems.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;comboTableItems.Name" xml:space="preserve">
+    <value>comboTableItems</value>
+  </data>
+  <data name="&gt;&gt;comboTableItems.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckedComboBoxEdit, DevExpress.XtraEditors.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;comboTableItems.Parent" xml:space="preserve">
+    <value>impacLayoutControl2</value>
+  </data>
+  <data name="&gt;&gt;comboTableItems.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="inputDateRange.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="inputDateRange.DateRange" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFVJbXBhYy5Nb3NhaXEuVUkuSW5wdXRUZW1wbGF0ZXMsIFZlcnNp
+        b249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsBQEAAABTSW1wYWMu
+        TW9zYWlxLlVJLklucHV0VGVtcGxhdGVzLkRhdGVUaW1lVGVtcGxhdGVzLklucHV0RGF0ZVJhbmdlLklu
+        cHV0RGF0ZVJhbmdlVmFsdWUEAAAAFV9mcm9tRGF0ZUNvbnRyb2xWYWx1ZRFfc3BpbkNvbnRyb2xWYWx1
+        ZRNfdG9EYXRlQ29udHJvbFZhbHVlBV90eXBlAwADBA9TeXN0ZW0uRGF0ZVRpbWUID1N5c3RlbS5EYXRl
+        VGltZVlJbXBhYy5Nb3NhaXEuVUkuSW5wdXRUZW1wbGF0ZXMuRGF0ZVRpbWVUZW1wbGF0ZXMuSW5wdXRE
+        YXRlUmFuZ2UuSW5wdXREYXRlUmFuZ2VDb250cm9sVHlwZQIAAAACAAAACA0AAK4WXKzPiAEAAAAIDQAA
+        rhZcrM+IBf3///9ZSW1wYWMuTW9zYWlxLlVJLklucHV0VGVtcGxhdGVzLkRhdGVUaW1lVGVtcGxhdGVz
+        LklucHV0RGF0ZVJhbmdlLklucHV0RGF0ZVJhbmdlQ29udHJvbFR5cGUBAAAAB3ZhbHVlX18ACAIAAAAC
+        AAAACw==
+</value>
+  </data>
+  <data name="inputDateRange.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 136</value>
+  </data>
+  <data name="inputDateRange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>566, 29</value>
+  </data>
+  <data name="inputDateRange.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;inputDateRange.Name" xml:space="preserve">
+    <value>inputDateRange</value>
+  </data>
+  <data name="&gt;&gt;inputDateRange.Type" xml:space="preserve">
+    <value>Impac.Mosaiq.UI.InputTemplates.DateTimeTemplates.InputDateRange.InputDateRangeControl, Impac.Mosaiq.UI.InputTemplates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;inputDateRange.Parent" xml:space="preserve">
+    <value>impacLayoutControl2</value>
+  </data>
+  <data name="&gt;&gt;inputDateRange.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textUpperLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 109</value>
+  </data>
+  <data name="textUpperLimit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textUpperLimit.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="textUpperLimit.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <assembly alias="DevExpress.XtraEditors.v11.1" name="DevExpress.XtraEditors.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="textUpperLimit.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v11.1">
+    <value>Numeric</value>
+  </data>
+  <data name="textUpperLimit.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textUpperLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 23</value>
+  </data>
+  <data name="textUpperLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textUpperLimit.Name" xml:space="preserve">
+    <value>textUpperLimit</value>
+  </data>
+  <data name="&gt;&gt;textUpperLimit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textUpperLimit.Parent" xml:space="preserve">
+    <value>impacLayoutControl2</value>
+  </data>
+  <data name="&gt;&gt;textUpperLimit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textLowerLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 82</value>
+  </data>
+  <data name="textLowerLimit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textLowerLimit.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="textLowerLimit.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="textLowerLimit.Properties.Mask.MaskType" type="DevExpress.XtraEditors.Mask.MaskType, DevExpress.XtraEditors.v11.1">
+    <value>Numeric</value>
+  </data>
+  <data name="textLowerLimit.Properties.Mask.UseMaskAsDisplayFormat" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textLowerLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 23</value>
+  </data>
+  <data name="textLowerLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textLowerLimit.Name" xml:space="preserve">
+    <value>textLowerLimit</value>
+  </data>
+  <data name="&gt;&gt;textLowerLimit.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;textLowerLimit.Parent" xml:space="preserve">
+    <value>impacLayoutControl2</value>
+  </data>
+  <data name="&gt;&gt;textLowerLimit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="buttonDataItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 3</value>
+  </data>
+  <data name="buttonDataItem.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="buttonDataItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 21</value>
+  </data>
+  <data name="buttonDataItem.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonDataItem.Name" xml:space="preserve">
+    <value>buttonDataItem</value>
+  </data>
+  <data name="&gt;&gt;buttonDataItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;buttonDataItem.Parent" xml:space="preserve">
+    <value>impacLayoutControl2</value>
+  </data>
+  <data name="&gt;&gt;buttonDataItem.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="comboStringAlgorithm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 28</value>
+  </data>
+  <data name="comboStringAlgorithm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="comboStringAlgorithm.Properties.Appearance.BackColor" type="System.Drawing.Color, System.Drawing">
+    <value>Transparent</value>
+  </data>
+  <data name="comboStringAlgorithm.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="comboStringAlgorithm.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v11.1">
+    <value>Combo</value>
+  </data>
+  <data name="comboStringAlgorithm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 23</value>
+  </data>
+  <data name="comboStringAlgorithm.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboStringAlgorithm.Name" xml:space="preserve">
+    <value>comboStringAlgorithm</value>
+  </data>
+  <data name="&gt;&gt;comboStringAlgorithm.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ComboBoxEdit, DevExpress.XtraEditors.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;comboStringAlgorithm.Parent" xml:space="preserve">
+    <value>impacLayoutControl2</value>
+  </data>
+  <data name="&gt;&gt;comboStringAlgorithm.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="impacLayoutControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="impacLayoutControl2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="impacLayoutControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 29</value>
+  </data>
+  <data name="layoutControlGroup2.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="layoutItemDataItem.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="layoutItemDataItem.CustomizationFormText" xml:space="preserve">
+    <value>Data Item:</value>
+  </data>
+  <data name="layoutItemDataItem.Text" xml:space="preserve">
+    <value>Data Item:</value>
+  </data>
+  <data name="layoutItemLowerLimit.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="layoutItemLowerLimit.CustomizationFormText" xml:space="preserve">
+    <value>Lower Limit:</value>
+  </data>
+  <data name="layoutItemLowerLimit.Text" xml:space="preserve">
+    <value>Lower Limit:</value>
+  </data>
+  <data name="layoutItemUpperLimit.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="layoutItemUpperLimit.CustomizationFormText" xml:space="preserve">
+    <value>Upper Limit:</value>
+  </data>
+  <data name="layoutItemUpperLimit.Text" xml:space="preserve">
+    <value>Upper Limit:</value>
+  </data>
+  <data name="layoutItemStringAlgorithm.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="layoutItemStringAlgorithm.CustomizationFormText" xml:space="preserve">
+    <value>String Algorithm:</value>
+  </data>
+  <data name="layoutItemStringAlgorithm.Text" xml:space="preserve">
+    <value>String Algorithm:</value>
+  </data>
+  <data name="layoutItemDateRange.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="layoutItemDateRange.CustomizationFormText" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="layoutItemDateRange.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="layoutItemTableItems.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="layoutItemTableItems.CustomizationFormText" xml:space="preserve">
+    <value>Table Items:</value>
+  </data>
+  <data name="layoutItemTableItems.Text" xml:space="preserve">
+    <value>Table Items:</value>
+  </data>
+  <data name="layoutItemStringInput.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="layoutItemStringInput.CustomizationFormText" xml:space="preserve">
+    <value>String Input:</value>
+  </data>
+  <data name="layoutItemStringInput.Text" xml:space="preserve">
+    <value>String Input:</value>
+  </data>
+  <data name="layoutControlGroup2.Text" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="impacLayoutControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>572, 193</value>
+  </data>
+  <data name="impacLayoutControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="impacLayoutControl2.Text" xml:space="preserve">
+    <value>impacLayoutControl2</value>
+  </data>
+  <data name="&gt;&gt;impacLayoutControl2.Name" xml:space="preserve">
+    <value>impacLayoutControl2</value>
+  </data>
+  <data name="&gt;&gt;impacLayoutControl2.Type" xml:space="preserve">
+    <value>Impac.Mosaiq.UI.Controls.LayoutControls.ImpacLayoutControl, Impac.Mosaiq.UI.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;impacLayoutControl2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;impacLayoutControl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Select Items</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barManager.Name" xml:space="preserve">
+    <value>barManager</value>
+  </data>
+  <data name="&gt;&gt;barManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarManager, DevExpress.XtraBars.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bar1.Name" xml:space="preserve">
+    <value>bar1</value>
+  </data>
+  <data name="&gt;&gt;bar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItemOK.Name" xml:space="preserve">
+    <value>barButtonItemOK</value>
+  </data>
+  <data name="&gt;&gt;barButtonItemOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItemCancel.Name" xml:space="preserve">
+    <value>barButtonItemCancel</value>
+  </data>
+  <data name="&gt;&gt;barButtonItemCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciMinValue.Name" xml:space="preserve">
+    <value>lciMinValue</value>
+  </data>
+  <data name="&gt;&gt;lciMinValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lciMaxValue.Name" xml:space="preserve">
+    <value>lciMaxValue</value>
+  </data>
+  <data name="&gt;&gt;lciMaxValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Name" xml:space="preserve">
+    <value>layoutControlGroup2</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutItemDataItem.Name" xml:space="preserve">
+    <value>layoutItemDataItem</value>
+  </data>
+  <data name="&gt;&gt;layoutItemDataItem.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutItemLowerLimit.Name" xml:space="preserve">
+    <value>layoutItemLowerLimit</value>
+  </data>
+  <data name="&gt;&gt;layoutItemLowerLimit.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutItemUpperLimit.Name" xml:space="preserve">
+    <value>layoutItemUpperLimit</value>
+  </data>
+  <data name="&gt;&gt;layoutItemUpperLimit.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutItemStringAlgorithm.Name" xml:space="preserve">
+    <value>layoutItemStringAlgorithm</value>
+  </data>
+  <data name="&gt;&gt;layoutItemStringAlgorithm.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutItemDateRange.Name" xml:space="preserve">
+    <value>layoutItemDateRange</value>
+  </data>
+  <data name="&gt;&gt;layoutItemDateRange.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutItemTableItems.Name" xml:space="preserve">
+    <value>layoutItemTableItems</value>
+  </data>
+  <data name="&gt;&gt;layoutItemTableItems.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;layoutItemStringInput.Name" xml:space="preserve">
+    <value>layoutItemStringInput</value>
+  </data>
+  <data name="&gt;&gt;layoutItemStringInput.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DataItemThresholdsSelector</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="lciMinValue.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="lciMinValue.CustomizationFormText" xml:space="preserve">
+    <value>Value:</value>
+  </data>
+  <data name="lciMinValue.Text" xml:space="preserve">
+    <value>Min Value:</value>
+  </data>
+  <data name="lciMaxValue.AppearanceItemCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="lciMaxValue.CustomizationFormText" xml:space="preserve">
+    <value>Max Value:</value>
+  </data>
+  <data name="lciMaxValue.Text" xml:space="preserve">
+    <value>Max Value:</value>
+  </data>
+</root>

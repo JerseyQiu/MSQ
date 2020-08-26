@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptCalcFactorActivity_AcceptedCalcFactor_Description" xml:space="preserve">
+    <value>The calculation factor being accepted for this order.</value>
+  </data>
+  <data name="AcceptCalcFactorActivity_AcceptedCalcFactor_DisplayName" xml:space="preserve">
+    <value>Accepted Calculation Factor</value>
+  </data>
+  <data name="AcceptCalcFactorActivity_DisplayName" xml:space="preserve">
+    <value>Accept Calculation Factor</value>
+  </data>
+  <data name="AcceptCalcFactorActivity_RxoSetId_Description" xml:space="preserve">
+    <value>The Rxo_Set_Id of the pharmacy order which the accepted calculation factor applies to.</value>
+  </data>
+  <data name="AcceptCalcFactorActivity_RxoSetId_DisplayName" xml:space="preserve">
+    <value>Rxo_Set_Id</value>
+  </data>
+  <data name="AcceptedVariance_Description" xml:space="preserve">
+    <value>Calculation factor variance value accepted during pharmacy order approval processing</value>
+  </data>
+  <data name="AcceptedVariance_DisplayName" xml:space="preserve">
+    <value>Accepted Variance</value>
+  </data>
+  <data name="CheckCalcFactorActivity_CalcFactor_Description" xml:space="preserve">
+    <value>The calculation factor to be checked for acceptance.</value>
+  </data>
+  <data name="CheckCalcFactorActivity_CalcFactor_DisplayName" xml:space="preserve">
+    <value>Calculation Factor</value>
+  </data>
+  <data name="CheckCalcFactorActivity_DisplayName" xml:space="preserve">
+    <value>Check Calculation Factor</value>
+  </data>
+  <data name="CheckCalcFactorActivity_Result_Description" xml:space="preserve">
+    <value>Returns whether the calculation factor is within an accepted range.</value>
+  </data>
+  <data name="CheckCalcFactorActivity_Result_DisplayName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CheckCalcFactorActivity_RxoSetId_Description" xml:space="preserve">
+    <value>The Rxo_Set_Id of the pharmacy order to check.</value>
+  </data>
+  <data name="CheckCalcFactorActivity_RxoSetId_DisplayName" xml:space="preserve">
+    <value>Rxo_Set_Id</value>
+  </data>
+  <data name="CheckDoseAllowedActivity_DisplayName" xml:space="preserve">
+    <value>Check Dose Allowed</value>
+  </data>
+  <data name="CheckDoseAllowedActivity_Dose_Description" xml:space="preserve">
+    <value>The dose being checked to see if it’s allowed.</value>
+  </data>
+  <data name="CheckDoseAllowedActivity_Dose_DisplayName" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="CheckDoseAllowedActivity_Drg_Id_Description" xml:space="preserve">
+    <value>The primary key of the drug</value>
+  </data>
+  <data name="CheckDoseAllowedActivity_Result_Description" xml:space="preserve">
+    <value>Returns whether the dose is allowed.</value>
+  </data>
+  <data name="CheckDoseAllowedActivity_Result_DisplayName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="DoseAdjustFormActivity_DisplayName" xml:space="preserve">
+    <value>Dose Adjustment Form</value>
+  </data>
+  <data name="DoseAdjustFormActivity_Orc_Set_Id_Description" xml:space="preserve">
+    <value>The Set_Id of the order being adjusted</value>
+  </data>
+  <data name="DoseAdjustFormActivity_Orc_Set_Id_DisplayName" xml:space="preserve">
+    <value>Orc_Set_Id</value>
+  </data>
+  <data name="DoseAdjustFormActivity_Result_Description" xml:space="preserve">
+    <value>True if the user clicks OK, false otherwise.</value>
+  </data>
+  <data name="DoseAdjustFormActivity_Result_DisplayName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="DoseAdjustFormActivity_UseRecentBSA_Description" xml:space="preserve">
+    <value>Indicates whether the form should simulate a click to the "Use Recent BSA" button before the window displays.</value>
+  </data>
+  <data name="DoseAdjustFormActivity_UseRecentBSA_DisplayName" xml:space="preserve">
+    <value>Use Recent BSA</value>
+  </data>
+  <data name="Drg_Id_DisplayName" xml:space="preserve">
+    <value>Drg_Id</value>
+  </data>
+  <data name="GetAcceptedCalcFactorVarianceActivity_DisplayName" xml:space="preserve">
+    <value>Get Accepted Calculation Factor Variance</value>
+  </data>
+  <data name="GetSuggestedDoseActivity_CalcFactor_Description" xml:space="preserve">
+    <value>The calculation factor (BSA, weight, etc) used to calculate the suggested dose.</value>
+  </data>
+  <data name="GetSuggestedDoseActivity_CalcFactor_DisplayName" xml:space="preserve">
+    <value>Calculation Factor</value>
+  </data>
+  <data name="GetSuggestedDoseActivity_DisplayName" xml:space="preserve">
+    <value>Get Suggested Dose</value>
+  </data>
+  <data name="GetSuggestedDoseActivity_Rxo_Id_Description" xml:space="preserve">
+    <value>The primary key of the PharmOrd record we want to get the suggested dose for.</value>
+  </data>
+  <data name="GetSuggestedDoseActivity_Rxo_Id_DisplayName" xml:space="preserve">
+    <value>Rxo_Id</value>
+  </data>
+  <data name="GetSuggestedDoseActivity_SuggestedDose_Description" xml:space="preserve">
+    <value>The suggsted dose calculated from the dose basis on the PharmOrd record and the calculation factor passed in.</value>
+  </data>
+  <data name="GetSuggestedDoseActivity_SuggestedDose_DisplayName" xml:space="preserve">
+    <value>Suggested Dose</value>
+  </data>
+  <data name="MarkDoseAllowedActivity_AllowedDose_Description" xml:space="preserve">
+    <value>The dose which will be allowed within the currently executing batch of orders.</value>
+  </data>
+  <data name="MarkDoseAllowedActivity_AllowedDose_DisplayName" xml:space="preserve">
+    <value>Allowed Dose</value>
+  </data>
+  <data name="MarkDoseAllowedActivity_DisplayName" xml:space="preserve">
+    <value>Mark Dose Allowed</value>
+  </data>
+  <data name="MarkDoseAllowedActivity_Drg_Id_Description" xml:space="preserve">
+    <value>The primary key of the drug for which the dose is being allowed</value>
+  </data>
+  <data name="MedOnc_ActivityGroup" xml:space="preserve">
+    <value>Medical Oncology</value>
+  </data>
+  <data name="PharmOrd_Category" xml:space="preserve">
+    <value>Pharmacy Orders</value>
+  </data>
+</root>

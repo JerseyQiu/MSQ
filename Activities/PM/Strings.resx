@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CompleteQclActivity_ChkId_Description" xml:space="preserve">
+    <value>The primary key of the QCL to complete.</value>
+  </data>
+  <data name="CompleteQclActivity_ChkId_DisplayName" xml:space="preserve">
+    <value>Chk_Id</value>
+  </data>
+  <data name="CompleteQclActivity_DisplayName" xml:space="preserve">
+    <value>Complete QCL</value>
+  </data>
+  <data name="CreateQclActivity_ChkId_Description" xml:space="preserve">
+    <value>The primary key value of the QCL.</value>
+  </data>
+  <data name="CreateQclActivity_ChkId_DisplayName" xml:space="preserve">
+    <value>Chk_Id</value>
+  </data>
+  <data name="CreateQclActivity_Instructions_Description" xml:space="preserve">
+    <value>The instructions value of the QCL.</value>
+  </data>
+  <data name="CreateQclActivity_Instructions_DisplayName" xml:space="preserve">
+    <value>Instructions</value>
+  </data>
+  <data name="CreateQclActivity_DisplayName" xml:space="preserve">
+    <value>Create QCL</value>
+  </data>
+  <data name="CreateQclActivity_DueDate_Description" xml:space="preserve">
+    <value>The due date value of the QCL.</value>
+  </data>
+  <data name="CreateQclActivity_DueDate_DisplayName" xml:space="preserve">
+    <value>Due Date</value>
+  </data>
+  <data name="CreateQclActivity_PatId1_Description" xml:space="preserve">
+    <value>The patient value of the QCL.</value>
+  </data>
+  <data name="Patient_DisplayName" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="CreateQclActivity_TskId_Description" xml:space="preserve">
+    <value>The Tsk_Id of the QCL task.</value>
+  </data>
+  <data name="CreateQclActivity_StaffIdResponsible_Description" xml:space="preserve">
+    <value>The responsible (staff/location) value of the QCL.</value>
+  </data>
+  <data name="CreateQclWithFormActivity_DisplayName" xml:space="preserve">
+    <value>Create QCL (Show Form)</value>
+  </data>
+  <data name="CreateQclWithFormActivity_ProId_Description" xml:space="preserve">
+    <value>The Pro_Id of the procedure that will be pre-populated when the QCL form opens </value>
+  </data>
+  <data name="CreateQclActivity_TskId_DisplayName" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="CreateQclWithFormActivity_StaffIdResponsible_Description" xml:space="preserve">
+    <value>The Staff_Id of the responsible staff/location that will be pre-populated when the QCL form opens</value>
+  </data>
+  <data name="CreateQclActivity_StaffIdResponsible_DisplayName" xml:space="preserve">
+    <value>Responsible</value>
+  </data>
+  <data name="DeleteQclActivity_ChkId_Description" xml:space="preserve">
+    <value>The primary key of the QCL.</value>
+  </data>
+  <data name="DeleteQclActivity_ChkId_DisplayName" xml:space="preserve">
+    <value>Chk_Id</value>
+  </data>
+  <data name="DeleteQclActivity_DisplayName" xml:space="preserve">
+    <value>Delete QCL </value>
+  </data>
+  <data name="GetNextClinicDayActivity_NextClinicDate_Description" xml:space="preserve">
+    <value>Gets the next day that the clinic will be open after the start date provided (or Today if no date is provided)</value>
+  </data>
+  <data name="GetNextClinicDayActivity_NextClinicDate_DisplayName" xml:space="preserve">
+    <value>Next Clinic Day</value>
+  </data>
+  <data name="GetNextClinicDayActivity_NextClinicDayNotFound" xml:space="preserve">
+    <value>Could not find a clinic day within the next 30 days</value>
+  </data>
+  <data name="GetNextClinicDay_DisplayName" xml:space="preserve">
+    <value>Get Next Clinic Day</value>
+  </data>
+  <data name="PracticeManagement_ActivityGroup" xml:space="preserve">
+    <value>Practice Management</value>
+  </data>
+  <data name="QualityChecklist_Category" xml:space="preserve">
+    <value>Quality Check List</value>
+  </data>
+  <data name="Scheduling_Category" xml:space="preserve">
+    <value>Scheduling</value>
+  </data>
+  <data name="CompleteQclActivity_StaffIdCompleted_Description" xml:space="preserve">
+    <value>The completed (staff/location) value of the QCL.  If no value is provided, the logged in staff member will be used.</value>
+  </data>
+  <data name="CompleteQclActivity_StaffIdCompleted_DisplayName" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="CreateQclActivity_StaffIdRequesting_Description" xml:space="preserve">
+    <value>The requesting (staff/location) value of the QCL.</value>
+  </data>
+  <data name="CreateQclActivity_StaffIdRequesting_DisplayName" xml:space="preserve">
+    <value>Requesting</value>
+  </data>
+  <data name="CreateQclActivity_CGroup_Description" xml:space="preserve">
+    <value>The billable group of the QCL.</value>
+  </data>
+  <data name="CreateQclActivity_CGroup_DisplayName" xml:space="preserve">
+    <value>Billable Code Group</value>
+  </data>
+  <data name="CreateQclActivity_PrsId_Description" xml:space="preserve">
+    <value>The Prs_Id of the billable code of the QCL.</value>
+  </data>
+  <data name="CreateQclActivity_PrsId_DisplayName" xml:space="preserve">
+    <value>Billable Code</value>
+  </data>
+  <data name="GetNextClinicDayActivity_SearchStartDate_Description" xml:space="preserve">
+    <value>The date from which to begin searching for clinic days.  The current date will be used if no value is provided.</value>
+  </data>
+  <data name="GetNextClinicDayActivity_SearchStartDate_DisplayName" xml:space="preserve">
+    <value>Search Start Date</value>
+  </data>
+  <data name="Demographics_Category" xml:space="preserve">
+    <value>Demographics</value>
+  </data>
+  <data name="Department_DisplayName" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="GetAttendingMdActivity_AttendingMdId_Description" xml:space="preserve">
+    <value>The attending MD for the patient and department provided.</value>
+  </data>
+  <data name="GetAttendingMdActivity_AttendingMdId_DisplayName" xml:space="preserve">
+    <value>Attending MD</value>
+  </data>
+  <data name="GetAttendingMdActivity_DisplayName" xml:space="preserve">
+    <value>Get Attending MD</value>
+  </data>
+  <data name="GetAttendingMdActivity_InstId_Description" xml:space="preserve">
+    <value>Sets the department for which the attending MD will be retrieved.</value>
+  </data>
+  <data name="GetAttendingMdActivity_PatId1_Description" xml:space="preserve">
+    <value>Sets the patient whose attending MD will be retrieved.</value>
+  </data>
+  <data name="QclExistsActivity_DisplayName" xml:space="preserve">
+    <value>QCL Exists</value>
+  </data>
+  <data name="QclExistsActivity_QclExists_Description" xml:space="preserve">
+    <value>Returns whether a QCL with matching attributes exists.</value>
+  </data>
+  <data name="QclExistsActivity_QclExists_DisplayName" xml:space="preserve">
+    <value>Exists</value>
+  </data>
+  <data name="QclExistsActivity_Completed_Description" xml:space="preserve">
+    <value>The completed state of the QCL.  A null or empty value matches QCL's regardless of whether they are completed.</value>
+  </data>
+  <data name="QclExistsActivity_Completed_DisplayName" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="CreateQclActivity_Comment_Description" xml:space="preserve">
+    <value>The comment value of the QCL.</value>
+  </data>
+  <data name="CreateQclActivity_Comment_DisplayName" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="ParseScheduleDataActivity_Activity_Description" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="ParseScheduleDataActivity_Activity_DisplayName" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="ParseScheduleDataActivity_AppDtTm_Description" xml:space="preserve">
+    <value>Appointment Date and Time</value>
+  </data>
+  <data name="ParseScheduleDataActivity_AppDtTm_DisplayName" xml:space="preserve">
+    <value>Appointment Date and Time</value>
+  </data>
+  <data name="ParseScheduleDataActivity_CreateDtTm_Description" xml:space="preserve">
+    <value>Create Date and Time</value>
+  </data>
+  <data name="ParseScheduleDataActivity_CreateDtTm_DisplayName" xml:space="preserve">
+    <value>Create Date and Time</value>
+  </data>
+  <data name="ParseScheduleDataActivity_CreateId_Description" xml:space="preserve">
+    <value>Create ID</value>
+  </data>
+  <data name="ParseScheduleDataActivity_CreateId_DisplayName" xml:space="preserve">
+    <value>Create ID</value>
+  </data>
+  <data name="ParseScheduleDataActivity_PatId1_Description" xml:space="preserve">
+    <value>Patient ID</value>
+  </data>
+  <data name="ParseScheduleDataActivity_PatId1_DisplayName" xml:space="preserve">
+    <value>Patient ID</value>
+  </data>
+  <data name="ParseScheduleDataActivity_Private_Description" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="ParseScheduleDataActivity_Private_DisplayName" xml:space="preserve">
+    <value>Private</value>
+  </data>
+  <data name="ParseScheduleDataActivity_ScheduleData_Description" xml:space="preserve">
+    <value>Schedule Data</value>
+  </data>
+  <data name="ParseScheduleDataActivity_ScheduleData_DisplayName" xml:space="preserve">
+    <value>Schedule Data</value>
+  </data>
+  <data name="ParseScheduleDataActivity_StaffId_Description" xml:space="preserve">
+    <value>Staff ID</value>
+  </data>
+  <data name="ParseScheduleDataActivity_StaffId_DisplayName" xml:space="preserve">
+    <value>Staff ID</value>
+  </data>
+  <data name="ParseScheduleDataActivity_DisplayName" xml:space="preserve">
+    <value>Parse Schedule Data</value>
+  </data>
+  <data name="CreateNoteActivity_DisplayName" xml:space="preserve">
+    <value>Create Note</value>
+  </data>
+  <data name="CreateNoteActivity_NoteId_Description" xml:space="preserve">
+    <value>Note ID</value>
+  </data>
+  <data name="CreateNoteActivity_NoteId_DisplayName" xml:space="preserve">
+    <value>Note ID</value>
+  </data>
+  <data name="CreateNoteActivity_NoteType_Description" xml:space="preserve">
+    <value>Type of Note</value>
+  </data>
+  <data name="CreateNoteActivity_NoteType_DisplayName" xml:space="preserve">
+    <value>Note Type</value>
+  </data>
+  <data name="CreateNoteActivity_Note_Description" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="CreateNoteActivity_Note_DisplayName" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="CreateNoteActivity_PatId1_Description" xml:space="preserve">
+    <value>The patient value of the Note.</value>
+  </data>
+  <data name="CreateNoteActivity_Subject_Description" xml:space="preserve">
+    <value>Note Subject</value>
+  </data>
+  <data name="CreateNoteActivity_Subject_DisplayName" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Notes_Category" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="AttachNoteToQclActivity_ChkId_Description" xml:space="preserve">
+    <value>Chk_Id</value>
+  </data>
+  <data name="AttachNoteToQclActivity_ChkId_DisplayName" xml:space="preserve">
+    <value>Check List ID</value>
+  </data>
+  <data name="AttachNoteToQclActivity_NoteId_Description" xml:space="preserve">
+    <value>Note_ID</value>
+  </data>
+  <data name="AttachNoteToQclActivity_NoteId_DisplayName" xml:space="preserve">
+    <value>Note ID</value>
+  </data>
+  <data name="AttachNoteToQclActivity_DisplayName" xml:space="preserve">
+    <value>Add Note to QCL</value>
+  </data>
+</root>

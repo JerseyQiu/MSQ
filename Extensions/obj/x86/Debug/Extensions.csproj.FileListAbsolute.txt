@@ -1,0 +1,10 @@
+C:\RD\33\Run\Impac.Mosaiq.IQ.Extensions.dll
+C:\RD\33\Run\Impac.Mosaiq.IQ.Extensions.pdb
+C:\RD\33\Mosaiq\IQ\Extensions\obj\x86\Debug\Extensions.csprojResolveAssemblyReference.cache
+C:\RD\33\Mosaiq\IQ\Extensions\obj\x86\Debug\Impac.Mosaiq.IQ.Extensions.dll
+C:\RD\33\Mosaiq\IQ\Extensions\obj\x86\Debug\Impac.Mosaiq.IQ.Extensions.pdb
+C:\Docs\IQ\Extensions\obj\x86\Debug\Impac.Mosaiq.IQ.Extensions.dll
+C:\Docs\IQ\Extensions\obj\x86\Debug\Impac.Mosaiq.IQ.Extensions.pdb
+C:\Run\Impac.Mosaiq.IQ.Extensions.dll
+C:\Run\Impac.Mosaiq.IQ.Extensions.pdb
+C:\Docs\IQ\Extensions\obj\x86\Debug\Extensions.csprojResolveAssemblyReference.cache

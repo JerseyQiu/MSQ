@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IQLocationVarActivity_DisplayName" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="IQDataItemVarActivity_DisplayName" xml:space="preserve">
+    <value>Flowsheet - Data Item or Table Title</value>
+  </data>
+  <data name="IQVarTabViewActivity_DisplayName" xml:space="preserve">
+    <value>Flowsheet - Tab View</value>
+  </data>
+  <data name="IQPatientVarActivity_DisplayName" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="IQQclTaskVarActivity_DisplayName" xml:space="preserve">
+    <value>QCL Task</value>
+  </data>
+  <data name="IQStaffVarActivity_DisplayName" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="IQStringVarActivity_DisplayName" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="IQVarGroupActivity_DisplayOrder_Description" xml:space="preserve">
+    <value>Determines the display order of the variable groups in the IQ Script Preferences window.</value>
+  </data>
+  <data name="IQVarGroupActivity_DisplayOrder_DisplayName" xml:space="preserve">
+    <value>Display Order</value>
+  </data>
+  <data name="ChecklistProcedure" xml:space="preserve">
+    <value>Checklist Procedure</value>
+    <comment>Form header for the checklist procedure browse.</comment>
+  </data>
+  <data name="GeneralCharting_Category" xml:space="preserve">
+    <value>General Charting</value>
+  </data>
+  <data name="IQVarGroupActivity_DisplayName" xml:space="preserve">
+    <value>Variable Group</value>
+  </data>
+  <data name="PracticeManagement_Category" xml:space="preserve">
+    <value>Practice Management</value>
+  </data>
+  <data name="IQDoubleVarActivity_DisplayName" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="MinValueGreaterThanMax" xml:space="preserve">
+    <value>The minimum value is greater than the maximum value.  Please resolve and try again.</value>
+  </data>
+  <data name="IQBooleanVarActivity_DisplayName" xml:space="preserve">
+    <value>Boolean</value>
+  </data>
+  <data name="IQEnumVarActivity_DisplayName" xml:space="preserve">
+    <value>Enumeration</value>
+  </data>
+  <data name="DoubleMustBeBetween" xml:space="preserve">
+    <value>{ValueType:0} {Value:1} must be between {Min:2} and {Max:3}</value>
+  </data>
+  <data name="DoubleMustBeGreaterThan" xml:space="preserve">
+    <value>{ValueType:0} {Value:1} must be greater than {Min:2}</value>
+  </data>
+  <data name="DoubleMustBeLessThan" xml:space="preserve">
+    <value>{ValueType:0} {Value:1} must be less than {Max:2}</value>
+  </data>
+  <data name="PredefinedValue" xml:space="preserve">
+    <value>Predefined value</value>
+  </data>
+  <data name="SelectedValue" xml:space="preserve">
+    <value>Selected value</value>
+  </data>
+  <data name="MaximumValue_DisplayName" xml:space="preserve">
+    <value>Maximum Value</value>
+  </data>
+  <data name="MinimumValue_DisplayName" xml:space="preserve">
+    <value>Minimum Value</value>
+  </data>
+  <data name="IQFlowsheetVarActivity_DisplayName" xml:space="preserve">
+    <value>Flowsheet Selection</value>
+  </data>
+  <data name="IQEnumVarActivity_DuplicateKey" xml:space="preserve">
+    <value>Preselected values with duplicate keys exist.</value>
+  </data>
+  <data name="FlowsheetTab_DisplayName" xml:space="preserve">
+    <value>Tab Name</value>
+  </data>
+  <data name="AvailableDateRanges_DisplayName" xml:space="preserve">
+    <value>Available Date Ranges</value>
+  </data>
+  <data name="IQDateRangeVarActivity_DisplayName" xml:space="preserve">
+    <value>Date Range</value>
+  </data>
+  <data name="IQEnumVarActivity_PreselectedValueRequired" xml:space="preserve">
+    <value>At least one preselected value must be defined.</value>
+  </data>
+  <data name="IQPatientVarActivity_ActivePatient" xml:space="preserve">
+    <value>Active Patient</value>
+  </data>
+  <data name="IQStaffVarActivity_ActiveUser" xml:space="preserve">
+    <value>Active User</value>
+  </data>
+  <data name="IQEnumVarActivity_PreselectedRequired" xml:space="preserve">
+    <value>"One or more preselected values are required"</value>
+  </data>
+  <data name="IQNoteTypeVarActivity_DisplayName" xml:space="preserve">
+    <value>Note Type</value>
+  </data>
+  <data name="IQCareplanVarActivity_DisplayName" xml:space="preserve">
+    <value>Care Plan</value>
+  </data>
+  <data name="NoViewSelected" xml:space="preserve">
+    <value>(No View Selected)</value>
+  </data>
+  <data name="IQProcedureVarActivity_DisplayName" xml:space="preserve">
+    <value>Procedure</value>
+  </data>
+  <data name="IQStaffLocVarActivity_DisplayName" xml:space="preserve">
+    <value>Staff / Location</value>
+  </data>
+  <data name="IQDataItemVarActivity_AllowedDataItemTypes_DisplayName" xml:space="preserve">
+    <value>Allowed Data Item Types</value>
+  </data>
+  <data name="ObsDefType_CheckBox" xml:space="preserve">
+    <value>Check Box</value>
+  </data>
+  <data name="ObsDefType_Choice" xml:space="preserve">
+    <value>Table Title</value>
+  </data>
+  <data name="ObsDefType_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ObsDefType_Numeric" xml:space="preserve">
+    <value>Numeric</value>
+  </data>
+  <data name="ObsDefType_String" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="ObsDefType_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="IQDataItemVarActivity_DataItemTypeNotAllowed" xml:space="preserve">
+    <value>'{0:ItemName}' is not allowed.  Allowed data item types are: {1:ItemList}</value>
+  </data>
+  <data name="IQDataItemVarActivity_AllowTableTitles_DisplayName" xml:space="preserve">
+    <value>Allow Table Titles</value>
+  </data>
+  <data name="IQDataItemVarActivity_DataItemsNotAllowed" xml:space="preserve">
+    <value>'{0:ItemName}' is not allowed.  Data Items are not allowed.</value>
+  </data>
+  <data name="IQDataItemVarActivity_TableTitlesNotAllowed" xml:space="preserve">
+    <value>'{0:ItemName}' is not allowed.  Table titles are not allowed.</value>
+  </data>
+  <data name="ObsDefType_NoneSelected" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="IQDrugVarActivity_DisplayName" xml:space="preserve">
+    <value>Drug</value>
+  </data>
+  <data name="IQTimeSpanRelativeVarActivity_DisplayName" xml:space="preserve">
+    <value>Time Span (Relative)</value>
+  </data>
+  <data name="IQDateTimeVarActivity_DisplayName" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="IQCodeGroupVarActivity_DisplayName" xml:space="preserve">
+    <value>Code Group</value>
+  </data>
+  <data name="IQIntegerVarActivity_DisplayName" xml:space="preserve">
+    <value>Integer</value>
+  </data>
+  <data name="RangeErrorAboveMax" xml:space="preserve">
+    <value>Value must be less than {0:Max}</value>
+  </data>
+  <data name="RangeErrorBelowMin" xml:space="preserve">
+    <value>Value must be greater than {0:Min}</value>
+  </data>
+  <data name="RangeErrorBetween" xml:space="preserve">
+    <value>Value must be between {0:Min} and {1:Max}</value>
+  </data>
+  <data name="ClinicalNotePrefix" xml:space="preserve">
+    <value>Clinical-</value>
+  </data>
+  <data name="IQTableItemVarActivity_DisplayName" xml:space="preserve">
+    <value>Flowsheet - Table Item</value>
+  </data>
+  <data name="IQVarGroupActivity_MustHaveActivity" xml:space="preserve">
+    <value>Must have at least one child activity</value>
+  </data>
+  <data name="IQVarGroupActivity_OnlyIQVariableActivitiesAllowed" xml:space="preserve">
+    <value>Group can only contain Variable Activities</value>
+  </data>
+  <data name="IQVarTabGroupActivity_DisplayName" xml:space="preserve">
+    <value>Variable Tab Group</value>
+  </data>
+  <data name="IQVarTabGroupActivity_MustHaveActivity" xml:space="preserve">
+    <value>Must have at least one child activity</value>
+  </data>
+  <data name="IQVarTabGroupActivity_OnlyIQTabVariableActivitiesAllowed" xml:space="preserve">
+    <value>Group can only contain Variable Group Activities</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>False</value>
+    <comment>Text value for the boolean value "False"</comment>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>True</value>
+    <comment>Text value for the boolean value "True"</comment>
+  </data>
+  <data name="IQVarGroupActivity_DisplayName_Description" xml:space="preserve">
+    <value>The name of the activity in the designer and the name which will be displayed on the rounded group box surrounding each grid in the IQ Preferences Dialog.</value>
+  </data>
+  <data name="IQVarTabGroupActivity_DisplayName_Description" xml:space="preserve">
+    <value>The name of the activity in the designer and the name which will be displayed on the tab created in the IQ Preferences Dialog.</value>
+  </data>
+  <data name="IQFlowsheetVarActivity_TabNameNotSet" xml:space="preserve">
+    <value>Tab Name is not set</value>
+  </data>
+  <data name="IncludeOtherLabs_DisplayName" xml:space="preserve">
+    <value>Include Other Labs</value>
+  </data>
+  <data name="IQQclTaskVarActivity_WidgetTitle" xml:space="preserve">
+    <value>Select Task</value>
+  </data>
+  <data name="IQCareplanVarActivity_WidgetTitle" xml:space="preserve">
+    <value>Select Careplan</value>
+  </data>
+  <data name="IQStaffLocVarActivity_WidgetTitle" xml:space="preserve">
+    <value>Select Staff/Loc</value>
+  </data>
+  <data name="IQStaffVarActivity_WidgetTitle" xml:space="preserve">
+    <value>Select Staff</value>
+  </data>
+  <data name="IQEscribeTemplateVarActivity_DisplayName" xml:space="preserve">
+    <value>eSCRIBE Template</value>
+  </data>
+  <data name="DocumentType" xml:space="preserve">
+    <value>Document Type</value>
+  </data>
+  <data name="IQDocumentTypeVarActivity_DisplayName" xml:space="preserve">
+    <value>Document Type</value>
+  </data>
+  <data name="IQDataItemThresholdsVarActivity_DisplayName" xml:space="preserve">
+    <value>Data Item with Thresholds</value>
+  </data>
+  <data name="StringAlgorithmContains" xml:space="preserve">
+    <value>Contains (Case Sensitive)</value>
+  </data>
+  <data name="StringAlgorithmContainsIgnoreCase" xml:space="preserve">
+    <value>Contains (Case Insensitive)</value>
+  </data>
+  <data name="StringAlgorithmEquals" xml:space="preserve">
+    <value>Equals (Case Sensitive)</value>
+  </data>
+  <data name="StringAlgorithmEqualsIgnoreCase" xml:space="preserve">
+    <value>Equals (Case Insensitive)</value>
+  </data>
+  <data name="StringAlgorithmRegEx" xml:space="preserve">
+    <value>Regular Expression</value>
+  </data>
+  <data name="IQDiagnosisCodeVarActivity_DisplayName" xml:space="preserve">
+    <value>Diagnosis Code</value>
+  </data>
+  <data name="TemplatesRoot_DisplayName" xml:space="preserve">
+    <value>Templates Root</value>
+  </data>
+  <data name="IQDepartmentVarActivity_DisplayName" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="ShowSupplies_DisplayName" xml:space="preserve">
+    <value>Show Supplies</value>
+  </data>
+  <data name="StringAlgorithmUpperLowerLimits" xml:space="preserve">
+    <value>Upper and Lower Limits</value>
+  </data>
+  <data name="IQStaffTypeOrCategoryVarActivity_DisplayName" xml:space="preserve">
+    <value>Staff Type or Category</value>
+  </data>
+  <data name="IQStaffTypeVarActivity_DisplayName" xml:space="preserve">
+    <value>Staff Type</value>
+  </data>
+  <data name="SelectStaffCategory" xml:space="preserve">
+    <value>Select Staff Category</value>
+  </data>
+  <data name="SelectStaffType" xml:space="preserve">
+    <value>Select Staff Type</value>
+  </data>
+  <data name="StaffCategoryLabel" xml:space="preserve">
+    <value>category</value>
+  </data>
+  <data name="StaffTypeLabel" xml:space="preserve">
+    <value>type</value>
+  </data>
+  <data name="IQCdsReferenceVarActivity_DisplayName" xml:space="preserve">
+    <value>CDS Reference</value>
+  </data>
+  <data name="PleaseEnterADrug" xml:space="preserve">
+    <value>Please select a drug.</value>
+  </data>
+  <data name="AllowMultipleLines_DisplayName" xml:space="preserve">
+    <value>Use Multi-Line Editor</value>
+    <comment>used for string variable</comment>
+  </data>
+  <data name="MaxLength_DisplayName" xml:space="preserve">
+    <value>Limit number of characters entered</value>
+    <comment>used for string variable</comment>
+  </data>
+</root>

@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Careplan_Category" xml:space="preserve">
+    <value>Care Plans</value>
+  </data>
+  <data name="CurrentDateActivity_AlternateSeparators_Description" xml:space="preserve">
+    <value>Alternate Separators</value>
+  </data>
+  <data name="CurrentDateActivity_AlternateSeparators_DisplayName" xml:space="preserve">
+    <value>Alternate Separators</value>
+  </data>
+  <data name="CurrentDateActivity_BlankIfNoDate_Description" xml:space="preserve">
+    <value>Blank if No Date</value>
+  </data>
+  <data name="CurrentDateActivity_BlankIfNoDate_DisplayName" xml:space="preserve">
+    <value>Blank if No Date</value>
+  </data>
+  <data name="CurrentDateActivity_Capitalization_Description" xml:space="preserve">
+    <value>Capitalization</value>
+  </data>
+  <data name="CurrentDateActivity_Capitalization_DisplayName" xml:space="preserve">
+    <value>Capitalization</value>
+  </data>
+  <data name="CurrentDateActivity_DateFormat_Description" xml:space="preserve">
+    <value>Date Format</value>
+  </data>
+  <data name="CurrentDateActivity_DateFormat_DisplayName" xml:space="preserve">
+    <value>Date Format</value>
+  </data>
+  <data name="CurrentDateActivity_DisplayName" xml:space="preserve">
+    <value>Current Date</value>
+  </data>
+  <data name="CurrentDateActivity_Html_Description" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="CurrentDateActivity_Html_DisplayName" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="CurrentDateActivity_KeepLeadingSpaces_Description" xml:space="preserve">
+    <value>Keep Leading Spaces</value>
+  </data>
+  <data name="CurrentDateActivity_KeepLeadingSpaces_DisplayName" xml:space="preserve">
+    <value>Keep Leading Spaces</value>
+  </data>
+  <data name="CurrentDateActivity_PlainText_Description" xml:space="preserve">
+    <value>Plain Text</value>
+  </data>
+  <data name="CurrentDateActivity_PlainText_DisplayName" xml:space="preserve">
+    <value>Plain Text</value>
+  </data>
+  <data name="CurrentDateActivity_PrependDayOfWeek_Description" xml:space="preserve">
+    <value>Prepend Day of Week</value>
+  </data>
+  <data name="CurrentDateActivity_PrependDayOfWeek_DisplayName" xml:space="preserve">
+    <value>Prepend Day of Week</value>
+  </data>
+  <data name="Error_InvalidObsDefDataFormat" xml:space="preserve">
+    <value>{0} observation definition data format not supported</value>
+    <comment>Displayed if an invalid obsdef value is found</comment>
+  </data>
+  <data name="Escribe_Category" xml:space="preserve">
+    <value>eSCRIBE</value>
+  </data>
+  <data name="FlowsheetFormActivity_DialogResult_Description" xml:space="preserve">
+    <value>The return result of the assessment form.</value>
+  </data>
+  <data name="FlowsheetFormActivity_DialogResult_DisplayName" xml:space="preserve">
+    <value>Dialog Result</value>
+  </data>
+  <data name="FlowsheetFormActivity_DisplayName" xml:space="preserve">
+    <value>Flowsheet Form</value>
+  </data>
+  <data name="FlowsheetFormActivity_MarkReviewed_Description" xml:space="preserve">
+    <value>Sets whether the assessment will be marked as reviewed.</value>
+  </data>
+  <data name="FlowsheetFormActivity_MarkReviewed_DisplayName" xml:space="preserve">
+    <value>Mark Reviewed</value>
+  </data>
+  <data name="FlowsheetFormActivity_ObdGuid_Description" xml:space="preserve">
+    <value>The flowsheet tab view which will be displayed in the form.</value>
+  </data>
+  <data name="FlowsheetFormActivity_ObdGuid_DisplayName" xml:space="preserve">
+    <value>Tab View</value>
+  </data>
+  <data name="FlowsheetFormActivity_ObrId_Description" xml:space="preserve">
+    <value>The Obr_Id of the ObsReq record created by the form.</value>
+  </data>
+  <data name="FlowsheetFormActivity_ObrId_DisplayName" xml:space="preserve">
+    <value>Obr_Id</value>
+  </data>
+  <data name="FlowsheetFormActivity_TabViewNotFound" xml:space="preserve">
+    <value>Tab view not found</value>
+  </data>
+  <data name="FlowsheetLookupActivity_AgeInDays_Description" xml:space="preserve">
+    <value>The number of days since this value was recorded.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_AgeInDays_DisplayName" xml:space="preserve">
+    <value>Observation Age (Days)</value>
+  </data>
+  <data name="FlowsheetLookupActivity_DisplayName" xml:space="preserve">
+    <value>Flowsheet Lookup</value>
+  </data>
+  <data name="FlowsheetLookupActivity_LookupMethod_Description" xml:space="preserve">
+    <value>Configures to pull the earliest value, latest value, or value by the Obr_Id provided.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_LookupMethod_DisplayName" xml:space="preserve">
+    <value>Lookup Method</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObdGuid_Description" xml:space="preserve">
+    <value>The data or tablie item to lookup from the flowsheet.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObdGuid_DisplayName" xml:space="preserve">
+    <value>Observation Item (Data or Table)</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObrId_Description" xml:space="preserve">
+    <value>The primary key of the ObsReq record to retreive the value from.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObrId_DisplayName" xml:space="preserve">
+    <value>Obr_Id</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsCheckboxValue_Description" xml:space="preserve">
+    <value>The observation value returned if the data type is a checkbox value.  Null otherwise.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsCheckboxValue_DisplayName" xml:space="preserve">
+    <value>Data (CheckBox)</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsChoiceValue_Description" xml:space="preserve">
+    <value>The Obd_Guid value of the observation value selected if the data type is a choice.  Null otherwise.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsChoiceValue_DisplayName" xml:space="preserve">
+    <value>Data (Choice)</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsDataValueFormat_Description" xml:space="preserve">
+    <value>The data type of the observation value.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsDataValueFormat_DisplayName" xml:space="preserve">
+    <value>Observation Data Type</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsDateTimeValue_Description" xml:space="preserve">
+    <value>The observation value returned if the data type is date or a time.  Null otherwise.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsDateTimeValue_DisplayName" xml:space="preserve">
+    <value>Data (Date and Time)</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsDtTm_Description" xml:space="preserve">
+    <value>The date and time the observation was taken.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsDtTm_DisplayName" xml:space="preserve">
+    <value>Observation Date/Time</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObservationItemNotFound" xml:space="preserve">
+    <value>Observation item not found</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsNumericValue_Description" xml:space="preserve">
+    <value>The observation value returned if the data type is numeric.  Null otherwise.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsNumericValue_DisplayName" xml:space="preserve">
+    <value>Data (Numeric)</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsResultFound_Description" xml:space="preserve">
+    <value>True if a result found.  False otherwise.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsResultFound_DisplayName" xml:space="preserve">
+    <value>Observation Result Found</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsStringValue_Description" xml:space="preserve">
+    <value>The observation value returned if the data type is a string.  Null otherwise.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_ObsStringValue_DisplayName" xml:space="preserve">
+    <value>Data (String)</value>
+  </data>
+  <data name="FlowsheetLookupActivity_PatId1_Description" xml:space="preserve">
+    <value>The patient of the flowsheet value belongs to.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_PatId1_DisplayName" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_DateRange_Description" xml:space="preserve">
+    <value>Range of dates to retrieve records over</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_DateRange_DisplayName" xml:space="preserve">
+    <value>Date Range</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_DisplayName" xml:space="preserve">
+    <value>Flowsheet Merge Field</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Heading" xml:space="preserve">
+    <value>Heading</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_HideIfBlank_Description" xml:space="preserve">
+    <value>Choose to hide data items, folders, or neither if empty</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_HideIfBlank_DisplayName" xml:space="preserve">
+    <value>Hide If Blank</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Html_Description" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Html_DisplayName" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_IncludeInstructions_Description" xml:space="preserve">
+    <value>Incude Instructions</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_IncludeInstructions_DisplayName" xml:space="preserve">
+    <value>Include Instructions</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Instructions" xml:space="preserve">
+    <value>Instructions</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_OutputFormat_Description" xml:space="preserve">
+    <value>Output Format</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_OutputFormat_DisplayName" xml:space="preserve">
+    <value>Output Format</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_PatId1_Description" xml:space="preserve">
+    <value>Pat ID1</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_PatId1_DisplayName" xml:space="preserve">
+    <value>Pat ID1</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_PlainText_Description" xml:space="preserve">
+    <value>Plain Text</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_PlainText_DisplayName" xml:space="preserve">
+    <value>Plain Text</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_SelectedItems_Description" xml:space="preserve">
+    <value>Selected Items</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_SelectedItems_DisplayName" xml:space="preserve">
+    <value>Selected Items</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_StatusBy_FullName" xml:space="preserve">
+    <value>Statused By</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_StatusBy_Initials" xml:space="preserve">
+    <value>Statused By</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_StatusDate" xml:space="preserve">
+    <value>Status Date</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_StatusInfo_Description" xml:space="preserve">
+    <value>Status Info</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_StatusInfo_DisplayName" xml:space="preserve">
+    <value>Status Info</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_TableItemsFormat_Description" xml:space="preserve">
+    <value>Table Items Format</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_TableItemsFormat_DisplayName" xml:space="preserve">
+    <value>Table Items Format</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_TestName" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Values_Description" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Values_DisplayName" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="Flowsheet_Category" xml:space="preserve">
+    <value>Flowsheet</value>
+  </data>
+  <data name="GeneralCharting_ActivityGroup" xml:space="preserve">
+    <value>General Charting</value>
+  </data>
+  <data name="GetCurrentBSAActivity_BSA_Description" xml:space="preserve">
+    <value>The current BSA value found for this patient.</value>
+  </data>
+  <data name="GetCurrentBSAActivity_BSA_DisplayName" xml:space="preserve">
+    <value>BSA</value>
+  </data>
+  <data name="GetCurrentBSAActivity_DisplayName" xml:space="preserve">
+    <value>Get Current BSA</value>
+  </data>
+  <data name="GetCurrentBSAActivity_IncludeOrders_Description" xml:space="preserve">
+    <value>Determines whether pharmacy orders from today should be included when determining the current BSA.</value>
+  </data>
+  <data name="GetCurrentBSAActivity_IncludeOrders_DisplayName" xml:space="preserve">
+    <value>Include Orders</value>
+  </data>
+  <data name="GetCurrentBSAActivity_PatId1_Description" xml:space="preserve">
+    <value>The primary key of the patient whose BSA is being looked up.</value>
+  </data>
+  <data name="GetCurrentBSAActivity_PatId1_DisplayName" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="IntentBrowseActivity_DisplayName" xml:space="preserve">
+    <value>Intent Browse</value>
+  </data>
+  <data name="IntentBrowseActivity_Prompt_Pro_Id_Description" xml:space="preserve">
+    <value>The primary key value of the selected intent</value>
+  </data>
+  <data name="IntentBrowseActivity_SelectedText_Description" xml:space="preserve">
+    <value>The text value of the selected intent (SelectedText)</value>
+  </data>
+  <data name="IntentBrowseActivity_SelectedText_DisplayName" xml:space="preserve">
+    <value>Selected Text</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_Columns_Description" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_Columns_DisplayName" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_DisplayName" xml:space="preserve">
+    <value>Merge Field Formatter</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_FieldData_Description" xml:space="preserve">
+    <value>Field Data</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_FieldData_DisplayName" xml:space="preserve">
+    <value>Field Data</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_Html_Description" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_Html_DisplayName" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_OutputFormat_Description" xml:space="preserve">
+    <value>Output Format</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_OutputFormat_DisplayName" xml:space="preserve">
+    <value>Output Format</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_PlainText_Description" xml:space="preserve">
+    <value>Plain Text</value>
+  </data>
+  <data name="MergeFieldFormatterActivity_PlainText_DisplayName" xml:space="preserve">
+    <value>Plain Text</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instructions</value>
+  </data>
+  <data name="Boolean_False" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Boolean_True" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Staff_Description" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_Staff_DisplayName" xml:space="preserve">
+    <value>Staff</value>
+  </data>
+  <data name="FlowsheetLookupActivity_AgeInHours_Description" xml:space="preserve">
+    <value>The number of hours since this value was recorded.</value>
+  </data>
+  <data name="FlowsheetLookupActivity_AgeInHours_DisplayName" xml:space="preserve">
+    <value>Observation Age (Hours)</value>
+  </data>
+  <data name="GetOrderClinicalDetailActivity_ContextValue_Description" xml:space="preserve">
+    <value>Optional context value which will be added to the order's clinical detail.</value>
+  </data>
+  <data name="GetOrderClinicalDetailActivity_ContextValue_DisplayName" xml:space="preserve">
+    <value>Context Value</value>
+  </data>
+  <data name="GetOrderClinicalDetailActivity_DisplayName" xml:space="preserve">
+    <value>Get Order Clinical Detail</value>
+  </data>
+  <data name="GetOrderClinicalDetailActivity_OrcSetId_Description" xml:space="preserve">
+    <value>The set id of the order to return clinical detail for.</value>
+  </data>
+  <data name="GetOrderClinicalDetailActivity_OrcSetId_DisplayName" xml:space="preserve">
+    <value>Orc Set Id</value>
+  </data>
+  <data name="GetOrderClinicalDetailActivity_Result_Description" xml:space="preserve">
+    <value>An XML string representing the clinical detail of an order.</value>
+  </data>
+  <data name="GetOrderClinicalDetailActivity_Result_DisplayName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Orders_Category" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ParagraphDelimiter_Description" xml:space="preserve">
+    <value>Delimiter for Paragraph Format</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ParagraphDelimiter_DisplayName" xml:space="preserve">
+    <value>Delimiter for Paragraph Format</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_DataItemsFormat_Description" xml:space="preserve">
+    <value>Data Items Format</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_DataItemsFormat_DisplayName" xml:space="preserve">
+    <value>Data Items Format</value>
+  </data>
+  <data name="MergeInboundDocumentActivity_Description" xml:space="preserve">
+    <value>Creates a new eScribe document using the specified template and merges the specified imported document in it</value>
+  </data>
+  <data name="MergeInboundDocumentActivity_DisplayName" xml:space="preserve">
+    <value>Merge Inbound Document</value>
+  </data>
+  <data name="MergeInboundDocumentActivity_ObjId_Description" xml:space="preserve">
+    <value>Object ID</value>
+  </data>
+  <data name="MergeInboundDocumentActivity_ObjId_DisplayName" xml:space="preserve">
+    <value>Object ID</value>
+  </data>
+  <data name="MergeInboundDocumentActivity_Template_Description" xml:space="preserve">
+    <value>eScribe template to use</value>
+  </data>
+  <data name="MergeInboundDocumentActivity_Template_DisplayName" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="CreateDocumentActivity_Description" xml:space="preserve">
+    <value>Creates a new eScribe document using the specified template and other parameters</value>
+  </data>
+  <data name="CreateDocumentActivity_DisplayName" xml:space="preserve">
+    <value>Create Document</value>
+  </data>
+  <data name="CreateDocumentActivity_DocType_Description" xml:space="preserve">
+    <value>Document Type</value>
+  </data>
+  <data name="CreateDocumentActivity_DocType_DisplayName" xml:space="preserve">
+    <value>Document Type</value>
+  </data>
+  <data name="CreateDocumentActivity_Template_Description" xml:space="preserve">
+    <value>eScribe template to use</value>
+  </data>
+  <data name="CreateDocumentActivity_Template_DisplayName" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="CreateDocumentActivity_PatId1_Description" xml:space="preserve">
+    <value>Pat ID1</value>
+  </data>
+  <data name="CreateDocumentActivity_PatId1_DisplayName" xml:space="preserve">
+    <value>Pat ID1</value>
+  </data>
+  <data name="CheckDataItemThresholdsActivity_DataItemThresholds_Description" xml:space="preserve">
+    <value>Data Item Thresholds</value>
+  </data>
+  <data name="CheckDataItemThresholdsActivity_DataItemThresholds_DisplayName" xml:space="preserve">
+    <value>Data Item Thresholds</value>
+  </data>
+  <data name="CheckDataItemThresholdsActivity_DisplayName" xml:space="preserve">
+    <value>Check Data Item Thresholds</value>
+  </data>
+  <data name="CheckDataItemThresholdsActivity_ObrId_Description" xml:space="preserve">
+    <value>OBR ID</value>
+  </data>
+  <data name="CheckDataItemThresholdsActivity_ObrId_DisplayName" xml:space="preserve">
+    <value>OBR ID</value>
+  </data>
+  <data name="CheckDataItemThresholdsActivity_Success_Description" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="CheckDataItemThresholdsActivity_Success_DisplayName" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_NumberOfRecords_Description" xml:space="preserve">
+    <value>Number of records to display for "Last N Records..." date range values.</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_NumberOfRecords_DisplayName" xml:space="preserve">
+    <value>Number of Records</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ShowDate_Description" xml:space="preserve">
+    <value>Attach date to record data item if in list or paragraph output format.</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ShowDate_DisplayName" xml:space="preserve">
+    <value>Show Date</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ObsReqsByDate_Description" xml:space="preserve">
+    <value>Dictionary of ObsReq DateTime (key) and Entity (value)</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ObsReqsByDate_DisplayName" xml:space="preserve">
+    <value>ObsReqs by Date</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_SingleRecordParagraphListDateHeader" xml:space="preserve">
+    <value>Record date</value>
+  </data>
+  <data name="CreateDocumentActivity_Account_Description" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="CreateDocumentActivity_Account_DisplayName" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="CreateDocumentActivity_CosignRequiredBy_Description" xml:space="preserve">
+    <value>Co-Sign Required By</value>
+  </data>
+  <data name="CreateDocumentActivity_CosignRequiredBy_DisplayName" xml:space="preserve">
+    <value>Co-Sign Required By</value>
+  </data>
+  <data name="CreateDocumentActivity_CreateIfDuplicateExists_Description" xml:space="preserve">
+    <value>Create If Duplicate Exists</value>
+  </data>
+  <data name="CreateDocumentActivity_CreateIfDuplicateExists_DisplayName" xml:space="preserve">
+    <value>Create If Duplicate Exists</value>
+  </data>
+  <data name="CreateDocumentActivity_Department_Description" xml:space="preserve">
+    <value>Departement</value>
+  </data>
+  <data name="CreateDocumentActivity_Department_DisplayName" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="CreateDocumentActivity_DictatedBy_Description" xml:space="preserve">
+    <value>Dictated By</value>
+  </data>
+  <data name="CreateDocumentActivity_DictatedBy_DisplayName" xml:space="preserve">
+    <value>Dictated By</value>
+  </data>
+  <data name="CreateDocumentActivity_EncounterDate_Description" xml:space="preserve">
+    <value>Encounter Date</value>
+  </data>
+  <data name="CreateDocumentActivity_EncounterDate_DisplayName" xml:space="preserve">
+    <value>Encounter Date</value>
+  </data>
+  <data name="CreateDocumentActivity_OpenAfterCreation_Description" xml:space="preserve">
+    <value>Open After Creation</value>
+  </data>
+  <data name="CreateDocumentActivity_OpenAfterCreation_DisplayName" xml:space="preserve">
+    <value>Open After Creation</value>
+  </data>
+  <data name="CreateDocumentActivity_ReviewRequiredBy_Description" xml:space="preserve">
+    <value>Review Required By</value>
+  </data>
+  <data name="CreateDocumentActivity_ReviewRequiredBy_DisplayName" xml:space="preserve">
+    <value>Review Required By</value>
+  </data>
+  <data name="CreateDocumentActivity_Status_Description" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CreateDocumentActivity_Status_DisplayName" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CreateDocumentActivity_TranscribedBy_Description" xml:space="preserve">
+    <value>Transcribed By</value>
+  </data>
+  <data name="CreateDocumentActivity_TranscribedBy_DisplayName" xml:space="preserve">
+    <value>Transcribed By</value>
+  </data>
+  <data name="CreateDocumentActivity_TranscribedDate_Description" xml:space="preserve">
+    <value>Transcribed Date</value>
+  </data>
+  <data name="CreateDocumentActivity_TranscribedDate_DisplayName" xml:space="preserve">
+    <value>Transcribed Date</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ObrSetIds_Description" xml:space="preserve">
+    <value>List of OBR_SET_IDs to be used for displaying specific user data</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ObrSetIds_DisplayName" xml:space="preserve">
+    <value>ObrSetIds</value>
+  </data>
+  <data name="FlowsheetFormActivity_PatientId_Description" xml:space="preserve">
+    <value>Patient IDfor the Observe Record</value>
+  </data>
+  <data name="FlowsheetFormActivity_PatientId_DisplayName" xml:space="preserve">
+    <value>Patient ID</value>
+  </data>
+  <data name="Status_Enum" xml:space="preserve">
+    <value>Status_Enum</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ShowOrder_Description" xml:space="preserve">
+    <value>Show Order</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ShowOrder_DisplayName" xml:space="preserve">
+    <value>Show Order</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_OrderDate" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_OrderDescription" xml:space="preserve">
+    <value>Order Description</value>
+  </data>
+  <data name="FlowsheetFormActivity_ReturnResult_Description" xml:space="preserve">
+    <value>Indicates whether the activity should return a result, i.e. display the UDD form synchronously</value>
+  </data>
+  <data name="FlowsheetFormActivity_ReturnResult_DisplayName" xml:space="preserve">
+    <value>Return Result</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ShowVoided_Description" xml:space="preserve">
+    <value>Show voided assessments</value>
+  </data>
+  <data name="FlowsheetMergeFieldActivity_ShowVoided_DisplayName" xml:space="preserve">
+    <value>Show Voided</value>
+  </data>
+  <data name="SaveCurrentData" xml:space="preserve">
+    <value>Save current data?</value>
+  </data>
+  <data name="FlowsheetFormActivity_UddInstanceId" xml:space="preserve">
+    <value>IQScriptUddForm</value>
+  </data>
+  <data name="FlowsheetFormActivity_ModalDialog_Description" xml:space="preserve">
+    <value>Indicates whether the activity should populate the form is modal or not. This field is optional. Default value is false.</value>
+  </data>
+  <data name="FlowsheetFormActivity_ModalDialog_DisplayName" xml:space="preserve">
+    <value>Modal Dialog</value>
+  </data>
+</root>

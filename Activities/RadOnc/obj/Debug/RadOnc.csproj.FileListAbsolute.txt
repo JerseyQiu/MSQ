@@ -1,0 +1,13 @@
+C:\RD\33\Run\Impac.Mosaiq.IQ.Activities.RadOnc.XML
+C:\RD\33\Run\Impac.Mosaiq.IQ.Activities.RadOnc.dll
+C:\RD\33\Run\Impac.Mosaiq.IQ.Activities.RadOnc.pdb
+C:\RD\33\Mosaiq\IQ\Activities\RadOnc\obj\Debug\RadOnc.csprojResolveAssemblyReference.cache
+C:\RD\33\Mosaiq\IQ\Activities\RadOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.RadOnc.Strings.resources
+C:\RD\33\Mosaiq\IQ\Activities\RadOnc\obj\Debug\RadOnc.csproj.GenerateResource.Cache
+C:\RD\33\Mosaiq\IQ\Activities\RadOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.RadOnc.dll
+C:\RD\33\Mosaiq\IQ\Activities\RadOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.RadOnc.pdb
+C:\Docs\IQ\Activities\RadOnc\obj\Debug\RadOnc.csprojResolveAssemblyReference.cache
+C:\Docs\IQ\Activities\RadOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.RadOnc.Strings.resources
+C:\Docs\IQ\Activities\RadOnc\obj\Debug\RadOnc.csproj.GenerateResource.Cache
+C:\Docs\IQ\Activities\RadOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.RadOnc.dll
+C:\Docs\IQ\Activities\RadOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.RadOnc.pdb

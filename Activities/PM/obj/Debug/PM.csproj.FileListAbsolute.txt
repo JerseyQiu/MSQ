@@ -1,0 +1,14 @@
+C:\RD\33\Run\Impac.Mosaiq.IQ.Activities.PM.dll
+C:\RD\33\Run\Impac.Mosaiq.IQ.Activities.PM.pdb
+C:\RD\33\Mosaiq\IQ\Activities\PM\obj\Debug\PM.csprojResolveAssemblyReference.cache
+C:\RD\33\Mosaiq\IQ\Activities\PM\obj\Debug\Impac.Mosaiq.IQ.Activities.PM.Strings.resources
+C:\RD\33\Mosaiq\IQ\Activities\PM\obj\Debug\PM.csproj.GenerateResource.Cache
+C:\RD\33\Mosaiq\IQ\Activities\PM\obj\Debug\Impac.Mosaiq.IQ.Activities.PM.dll
+C:\RD\33\Mosaiq\IQ\Activities\PM\obj\Debug\Impac.Mosaiq.IQ.Activities.PM.pdb
+C:\Docs\IQ\Activities\PM\obj\Debug\PM.csprojResolveAssemblyReference.cache
+C:\Docs\IQ\Activities\PM\obj\Debug\Impac.Mosaiq.IQ.Activities.PM.Strings.resources
+C:\Docs\IQ\Activities\PM\obj\Debug\PM.csproj.GenerateResource.Cache
+C:\Docs\IQ\Activities\PM\obj\Debug\Impac.Mosaiq.IQ.Activities.PM.dll
+C:\Docs\IQ\Activities\PM\obj\Debug\Impac.Mosaiq.IQ.Activities.PM.pdb
+C:\Run\Impac.Mosaiq.IQ.Activities.PM.dll
+C:\Run\Impac.Mosaiq.IQ.Activities.PM.pdb

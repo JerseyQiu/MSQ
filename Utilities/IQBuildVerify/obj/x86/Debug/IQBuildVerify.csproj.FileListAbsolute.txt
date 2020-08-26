@@ -1,0 +1,9 @@
+C:\RD\33\Run\IQBuildVerify.exe.config
+C:\RD\33\Run\IQBuildVerify.exe
+C:\RD\33\Run\IQBuildVerify.pdb
+C:\RD\33\Mosaiq\IQ\Utilities\IQBuildVerify\obj\x86\Debug\IQBuildVerify.csprojResolveAssemblyReference.cache
+C:\RD\33\Mosaiq\IQ\Utilities\IQBuildVerify\obj\x86\Debug\IQBuildVerify.exe
+C:\RD\33\Mosaiq\IQ\Utilities\IQBuildVerify\obj\x86\Debug\IQBuildVerify.pdb
+C:\Docs\IQ\Utilities\IQBuildVerify\obj\x86\Debug\IQBuildVerify.csprojResolveAssemblyReference.cache
+C:\Docs\IQ\Utilities\IQBuildVerify\obj\x86\Debug\IQBuildVerify.exe
+C:\Docs\IQ\Utilities\IQBuildVerify\obj\x86\Debug\IQBuildVerify.pdb

@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Category_Billing" xml:space="preserve">
+    <value>Billing</value>
+  </data>
+  <data name="Category_Common" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="Category_DICOM" xml:space="preserve">
+    <value>DICOM</value>
+  </data>
+  <data name="Category_GeneralCharting" xml:space="preserve">
+    <value>General Charting</value>
+  </data>
+  <data name="Category_MedOnc" xml:space="preserve">
+    <value>Medical Oncology</value>
+  </data>
+  <data name="Category_RadOnc" xml:space="preserve">
+    <value>Radiation Oncology</value>
+  </data>
+  <data name="CTSeriesArrived_Description" xml:space="preserve">
+    <value>Process Incoming CT Series</value>
+  </data>
+  <data name="CTSeriesArrived_Name" xml:space="preserve">
+    <value>CT Series Arrived</value>
+  </data>
+  <data name="ImageSeriesScript_Description" xml:space="preserve">
+    <value>Create Image Series Script</value>
+  </data>
+  <data name="ImageSeriesScript_Name" xml:space="preserve">
+    <value>Image Series Script</value>
+  </data>
+  <data name="EscribeMergeFieldScript_Description" xml:space="preserve">
+    <value>An IQ Script type that must be used for scripts that implement eScribe merge fields</value>
+  </data>
+  <data name="EscribeMergeFieldScript_Name" xml:space="preserve">
+    <value>eSCRIBE Merge Field</value>
+  </data>
+  <data name="GenericScript_Description" xml:space="preserve">
+    <value>An IQ script which can be invoked from any decision support trigger point.</value>
+  </data>
+  <data name="GenericScript_Name" xml:space="preserve">
+    <value>Generic Script</value>
+  </data>
+  <data name="MRSeriesArrived_Description" xml:space="preserve">
+    <value>Process Incoming MR Series</value>
+  </data>
+  <data name="MRSeriesArrived_Name" xml:space="preserve">
+    <value>MR Series Arrived</value>
+  </data>
+  <data name="ObsOrdApproved_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after the observation order has been approved.</value>
+  </data>
+  <data name="ObsOrdApproved_Name" xml:space="preserve">
+    <value>Order Approved</value>
+  </data>
+  <data name="ObsOrdApproving_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked prior to the observation order has been approved.</value>
+  </data>
+  <data name="ObsOrdApproving_Name" xml:space="preserve">
+    <value>Order Approving</value>
+  </data>
+  <data name="ObsOrdCreated_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked when the observation order has been created.</value>
+  </data>
+  <data name="ObsOrdCreated_Name" xml:space="preserve">
+    <value>Order Created</value>
+  </data>
+  <data name="ObsOrdMarkedReadyToTreat_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after a observation order is marked ready to treat.</value>
+  </data>
+  <data name="ObsOrdMarkedReadyToTreat_Name" xml:space="preserve">
+    <value>Order Marked Ready to Treat</value>
+  </data>
+  <data name="ObsOrdMarkingReadyToTreat_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked as a observation order is being marked ready to treat.</value>
+  </data>
+  <data name="ObsOrdMarkingReadyToTreat_Name" xml:space="preserve">
+    <value>Order Marking Ready to Treat</value>
+  </data>
+  <data name="ObsOrdModified_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after the observation order has been modified.</value>
+  </data>
+  <data name="ObsOrdModified_Name" xml:space="preserve">
+    <value>Order Modified</value>
+  </data>
+  <data name="OrderScriptCancelable_Description" xml:space="preserve">
+    <value>An order script type can be used by any IQ Enabled Feature which is related to a single order and is a cancelable action.  For example, Pharmacy Order Approval, or Pharmacy Order Verifying are actions which take an order as input and can be cancelled by the script if needed.</value>
+  </data>
+  <data name="OrderScriptCancelable_Name" xml:space="preserve">
+    <value>Order Script (Cancelable)</value>
+  </data>
+  <data name="OrderScript_Description" xml:space="preserve">
+    <value>An order script type can be used by any IQ Enabled Feature which is related to a single order. For example, Observation Order Approved or Observation Order Created are actions which take an order as input by the script.</value>
+  </data>
+  <data name="OrderScript_Name" xml:space="preserve">
+    <value>Order Script</value>
+  </data>
+  <data name="PatientCarePlanFormFeature_Name" xml:space="preserve">
+    <value>Patient Care Plan Form</value>
+  </data>
+  <data name="PatientCarePlanFormScript_Name" xml:space="preserve">
+    <value>Patient Care Plan Form Script</value>
+  </data>
+  <data name="PatientCarePlanForm_Description" xml:space="preserve">
+    <value>The patient care plan form script type allows additional IQ Engine functionality to be executed upon particular actions that occur in a form (such as changing a control value, clicking OK, or clicking Cancel).</value>
+  </data>
+  <data name="PatientScript_Description" xml:space="preserve">
+    <value>An IQ script that can be invoked on any supported, patient related operations.</value>
+  </data>
+  <data name="PatientScript_Name" xml:space="preserve">
+    <value>Patient Script</value>
+  </data>
+  <data name="PETSeriesArrived_Description" xml:space="preserve">
+    <value>Process Incoming PET Series</value>
+  </data>
+  <data name="PETSeriesArrived_Name" xml:space="preserve">
+    <value>PET Series Arrived</value>
+  </data>
+  <data name="PharmOrdAdministered_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after a pharmacy order is administered.</value>
+  </data>
+  <data name="PharmOrdAdministered_Name" xml:space="preserve">
+    <value>Order Administered</value>
+  </data>
+  <data name="PharmOrdAdministering_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked as a pharmacy order is being administered.</value>
+  </data>
+  <data name="PharmOrdAdministering_Name" xml:space="preserve">
+    <value>Order Administering</value>
+  </data>
+  <data name="PharmOrdApproved_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after a pharmacy order is approved.</value>
+  </data>
+  <data name="PharmOrdApproved_Name" xml:space="preserve">
+    <value>Order Approved</value>
+  </data>
+  <data name="PharmOrdApproving_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked as a pharmacy order is being approved.</value>
+  </data>
+  <data name="PharmOrdApproving_Name" xml:space="preserve">
+    <value>Order Approving</value>
+  </data>
+  <data name="PharmOrdCreated_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after a pharmacy order is created.</value>
+  </data>
+  <data name="PharmOrdCreated_Name" xml:space="preserve">
+    <value>Order Created</value>
+  </data>
+  <data name="PharmOrdMarkedReadyToTreat_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after a pharmacy order is marked ready to treat.</value>
+  </data>
+  <data name="PharmOrdMarkedReadyToTreat_Name" xml:space="preserve">
+    <value>Order Marked Ready to Treat</value>
+  </data>
+  <data name="PharmOrdMarkingReadyToTreat_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked as a pharmacy order is being marked ready to treat.</value>
+  </data>
+  <data name="PharmOrdMarkingReadyToTreat_Name" xml:space="preserve">
+    <value>Order Marking Ready to Treat</value>
+  </data>
+  <data name="PharmOrdModified_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after a pharmacy order is modified.</value>
+  </data>
+  <data name="PharmOrdModified_Name" xml:space="preserve">
+    <value>Order Modified</value>
+  </data>
+  <data name="PharmOrdPrepped_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after a pharmacy order is prepped.</value>
+  </data>
+  <data name="PharmOrdPrepped_Name" xml:space="preserve">
+    <value>Order Prepped</value>
+  </data>
+  <data name="PharmOrdPrepping_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked as a pharmacy order is being prepped.</value>
+  </data>
+  <data name="PharmOrdPrepping_Name" xml:space="preserve">
+    <value>Order Prepping</value>
+  </data>
+  <data name="PharmOrdVerified_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after a pharmacy order is verified.</value>
+  </data>
+  <data name="PharmOrdVerified_Name" xml:space="preserve">
+    <value>Order Verified</value>
+  </data>
+  <data name="PharmOrdVerifying_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked as a pharmacy order is being verified.</value>
+  </data>
+  <data name="PharmOrdVerifying_Name" xml:space="preserve">
+    <value>Order Verifying</value>
+  </data>
+  <data name="QclCompleted_Description" xml:space="preserve">
+    <value>An IQ Script which is invoked when a QCL task is completed.</value>
+  </data>
+  <data name="QclCompleted_Name" xml:space="preserve">
+    <value>QCL Completed</value>
+  </data>
+  <data name="QclScript_Description" xml:space="preserve">
+    <value>A QCL script type can be used by any IQ Enabled Feature which is related to a single quality check list item.  For example, QCL completed or QCL skipped.</value>
+  </data>
+  <data name="QclScript_Name" xml:space="preserve">
+    <value>QCL Script</value>
+  </data>
+  <data name="QclSkipped_Description" xml:space="preserve">
+    <value>An IQ Script which is invoked when a QCL task is skipped.</value>
+  </data>
+  <data name="QclSkipped_Name" xml:space="preserve">
+    <value>QCL Skipped</value>
+  </data>
+  <data name="QuickOrderGenerateFeature_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked when a quick order is generated.</value>
+  </data>
+  <data name="QuickOrderGenerateFeature_Name" xml:space="preserve">
+    <value>Quick Order Generate</value>
+  </data>
+  <data name="QuickOrderGenerateScript_Description" xml:space="preserve">
+    <value>An IQ Script which can be executed on Quick Order generation.</value>
+  </data>
+  <data name="RTDoseInstanceArrived_Description" xml:space="preserve">
+    <value>Process Incoming RT Dose Instance</value>
+  </data>
+  <data name="RTDoseInstanceArrived_Name" xml:space="preserve">
+    <value>RT Dose Instance Arrived</value>
+  </data>
+  <data name="RTDoseInstanceScript_Description" xml:space="preserve">
+    <value>Process Incoming RT Dose Instance</value>
+  </data>
+  <data name="RTDoseInstanceScript_Name" xml:space="preserve">
+    <value>RT Dose Instance Script</value>
+  </data>
+  <data name="StructureSetInstanceArrived_Description" xml:space="preserve">
+    <value>Process Incoming Structure Set Instance</value>
+  </data>
+  <data name="StructureSetInstanceArrived_Name" xml:space="preserve">
+    <value>Structure Set  Instance Arrived</value>
+  </data>
+  <data name="StructureSetInstanceScript_Description" xml:space="preserve">
+    <value>Process Incoming Structure Set Instance</value>
+  </data>
+  <data name="StructureSetInstanceScript_Name" xml:space="preserve">
+    <value>Structure Set Instance Script</value>
+  </data>
+  <data name="SROInstanceArrived_Description" xml:space="preserve">
+    <value>Process Incoming Spatial Registration Instance</value>
+  </data>
+  <data name="SROInstanceArrived_Name" xml:space="preserve">
+    <value>SRO Instance Arrived</value>
+  </data>
+  <data name="SROInstanceScript_Description" xml:space="preserve">
+    <value>Process Incoming Spatial Registration Instance</value>
+  </data>
+  <data name="SROInstanceScript_Name" xml:space="preserve">
+    <value>SRO Instance Script</value>
+  </data>
+  <data name="SubCategory_CdsCarePlans" xml:space="preserve">
+    <value>CDS Care Plans</value>
+  </data>
+  <data name="SubCategory_Common" xml:space="preserve">
+    <value>Common</value>
+  </data>
+  <data name="SubCategory_DicomInstances" xml:space="preserve">
+    <value>DICOM Instances</value>
+  </data>
+  <data name="SubCategory_DicomSeries" xml:space="preserve">
+    <value>DICOM Series</value>
+  </data>
+  <data name="SubCategory_Escribe" xml:space="preserve">
+    <value>eSCRIBE</value>
+  </data>
+  <data name="SubCategory_ObservationOrders" xml:space="preserve">
+    <value>Observation Orders</value>
+  </data>
+  <data name="SubCategory_Orders" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="SubCategory_PharmacyOrders" xml:space="preserve">
+    <value>Pharmacy Orders</value>
+  </data>
+  <data name="SubCategory_Qcl" xml:space="preserve">
+    <value>Quality Check List</value>
+  </data>
+  <data name="RTPlanInstanceArrived_Description" xml:space="preserve">
+    <value>Process Incoming RT Plan Instance</value>
+  </data>
+  <data name="RTPlanInstanceArrived_Name" xml:space="preserve">
+    <value>RT Plan Instance Arrived</value>
+  </data>
+  <data name="RTPlanInstanceScript_Description" xml:space="preserve">
+    <value>Process Incoming RT Plan Instance</value>
+  </data>
+  <data name="RTPlanInstanceScript_Name" xml:space="preserve">
+    <value>RT Plan Instance Script</value>
+  </data>
+  <data name="PatientScriptCancelable_Description" xml:space="preserve">
+    <value>A patient script type can be used by any IQ enabled feature which is related to a patient.  In some cases, the patient whose chart is currently opened will be used while in other cases, the patient tied to the data context of the IQ enabled feature will be used.  For example, if you attach a Patient Script (Cancelable) to an order trigger point, the patient the order belongs to will be used.</value>
+  </data>
+  <data name="PatientScriptCancelable_Name" xml:space="preserve">
+    <value>Patient Script (Cancelable)</value>
+  </data>
+  <data name="RODoseChartQAMode" xml:space="preserve">
+    <value>QA Mode</value>
+  </data>
+  <data name="RODoseChartQAMode_Description" xml:space="preserve">
+    <value>Trigger point for the QA Mode in the Treatment Chart</value>
+  </data>
+  <data name="RODoseChartTreat" xml:space="preserve">
+    <value>Treat</value>
+  </data>
+  <data name="RODoseChartTreat_Description" xml:space="preserve">
+    <value>Trigger point for the Radiotherapy treatment in the Treatment Chart</value>
+  </data>
+  <data name="SubCategory_TreatmentChart" xml:space="preserve">
+    <value>Treatment Chart</value>
+  </data>
+  <data name="SubCategory_Patient" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="Category_RadiationOncology" xml:space="preserve">
+    <value>Radiation Oncology</value>
+  </data>
+  <data name="RPSInstanceArrived_Description" xml:space="preserve">
+    <value>RPS XVIReference Parameter Set instance arrived</value>
+  </data>
+  <data name="RPSInstanceArrived_Name" xml:space="preserve">
+    <value>RPS Instance Arrived</value>
+  </data>
+  <data name="RPSInstanceScript_Description" xml:space="preserve">
+    <value>RPS Instance Script Desc</value>
+  </data>
+  <data name="RPSInstanceScript_Name" xml:space="preserve">
+    <value>RPS Instance Script</value>
+  </data>
+  <data name="PurgeAVS_Description" xml:space="preserve">
+    <value>Purge AVS for Image Series</value>
+  </data>
+  <data name="PurgeAVS_Name" xml:space="preserve">
+    <value>Purge AVS for Image Series</value>
+  </data>
+  <data name="RegenerateAVS_Description" xml:space="preserve">
+    <value>Regenerate AVS for Image Series</value>
+  </data>
+  <data name="RegenerateAVS_Name" xml:space="preserve">
+    <value>Regenerate AVS for Image Series</value>
+  </data>
+  <data name="SelectTemplate_Description" xml:space="preserve">
+    <value>Select an eSCRIBE template</value>
+  </data>
+  <data name="ObsDataReviewed_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after the observation data has been reviewed.</value>
+  </data>
+  <data name="SelectTemplate_Name" xml:space="preserve">
+    <value>Select eSCRIBE Template</value>
+  </data>
+  <data name="ObsDataReviewed_Name" xml:space="preserve">
+    <value>Observation Data Reviewed</value>
+  </data>
+  <data name="EscribeSelectTemplate_Description" xml:space="preserve">
+    <value>A script type that is used by an internal script that selects an eScribe template based on a document type and a patient's diagnosis.</value>
+  </data>
+  <data name="SubCategory_ObservationData" xml:space="preserve">
+    <value>Observation Data</value>
+  </data>
+  <data name="EscribeSelectTemplate_Name" xml:space="preserve">
+    <value>Select eSCRIBE Template</value>
+  </data>
+  <data name="InboundDocument_Description" xml:space="preserve">
+    <value>A trigger that is invoked after the import of a new interfaced document</value>
+  </data>
+  <data name="InboudDocument_Name" xml:space="preserve">
+    <value>Inbound Document</value>
+  </data>
+  <data name="AppointmentScript_Description" xml:space="preserve">
+    <value>An appointment script type can be used by any IQ Enabled Feature which is related to an appointment.</value>
+  </data>
+  <data name="DocumentScript_Description" xml:space="preserve">
+    <value>A document script type can be used by any IQ Enabled Feature which is related to a single encounter.  For example, Inbound Document.</value>
+  </data>
+  <data name="AppointmentScript_Name" xml:space="preserve">
+    <value>Appointment Script</value>
+  </data>
+  <data name="DocumentScript_Name" xml:space="preserve">
+    <value>Document Script</value>
+  </data>
+  <data name="SchAppointementEnded_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after the appointment is marked ended.</value>
+  </data>
+  <data name="ObsReqScript_Description" xml:space="preserve">
+    <value>An observation data script type can be used by any IQ Enabled Feature which is related to a single observation data item.  For example, Observation Data Created or Observation Data Reviewed.</value>
+  </data>
+  <data name="SchAppointmentEnded_Name" xml:space="preserve">
+    <value>Appointment Ended</value>
+  </data>
+  <data name="ObsReqScript_Name" xml:space="preserve">
+    <value>Observation Data Script</value>
+  </data>
+  <data name="SchPatientQueued_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after the appointment is marked patient queued.</value>
+  </data>
+  <data name="InboundObsReq_Name" xml:space="preserve">
+    <value>Inbound Observation Data</value>
+  </data>
+  <data name="SchPatientQueued_Name" xml:space="preserve">
+    <value>Patient Queued</value>
+  </data>
+  <data name="InboundObsReq_Description" xml:space="preserve">
+    <value>A trigger that is invoked after the import of a new ObsReq record</value>
+  </data>
+  <data name="SubCategory_Appointments" xml:space="preserve">
+    <value>Appointments</value>
+  </data>
+  <data name="SubCategory_ObsReq" xml:space="preserve">
+    <value>Observation Data</value>
+  </data>
+  <data name="ChargeScript_Description" xml:space="preserve">
+    <value>A charge script type can be used by any IQ Enabled Feature which is related to a single charge.  For example, Code Captured.</value>
+  </data>
+  <data name="ChargeScript_Name" xml:space="preserve">
+    <value>Charge Script</value>
+  </data>
+  <data name="ChgCodeCaptured_Decription" xml:space="preserve">
+    <value>IQ script trigger which is invoked after a charge has been captured.</value>
+  </data>
+  <data name="ChgCodeCaptured_Name" xml:space="preserve">
+    <value>Code Captured</value>
+  </data>
+  <data name="SubCategory_Charge" xml:space="preserve">
+    <value>Charge</value>
+  </data>
+  <data name="ObsDataCreated_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after the observation data has been created.</value>
+  </data>
+  <data name="ObsDataCreated_Name" xml:space="preserve">
+    <value>Observation Data Created</value>
+  </data>
+  <data name="PurgeAVSScript_Description" xml:space="preserve">
+    <value>Purge AVS Script</value>
+  </data>
+  <data name="PurgeAVSScript_Name" xml:space="preserve">
+    <value>Purge AVS Script</value>
+  </data>
+  <data name="PatientCarePlanFormFeature_Description" xml:space="preserve">
+    <value>IQ script user interface trigger which is invoked upon opening a Patient Care Plan form.</value>
+  </data>
+  <data name="PatientOpenChart_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after opening a patient's chart</value>
+  </data>
+  <data name="PatientOpenChart_Name" xml:space="preserve">
+    <value>Open Patient Chart</value>
+  </data>
+  <data name="PatientCCdaReceipt_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after the incorporation of a CCDA document</value>
+  </data>
+  <data name="PatientCCdaReceipt_Name" xml:space="preserve">
+    <value>CCDA Receipt</value>
+  </data>
+  <data name="PatientChartReview_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked when the Review Chart command is invoked</value>
+  </data>
+  <data name="PatientChartReview_Name" xml:space="preserve">
+    <value>Review Chart</value>
+  </data>
+  <data name="PatientDiagnosisReconciled_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after patient's diagnosis has been reconciled</value>
+  </data>
+  <data name="PatientDiagnosisReconciled_Name" xml:space="preserve">
+    <value>Diagnosis Reconciled</value>
+  </data>
+  <data name="PatientMedicationsReconciled_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked after patient's medications have been reconciled</value>
+  </data>
+  <data name="PatientMedicationsReconciled_Name" xml:space="preserve">
+    <value>Medications Reconciled</value>
+  </data>
+  <data name="IViewGTAutoIsocenterScript_Description" xml:space="preserve">
+    <value>Compute Isocenter Position for iViewGT RTImage</value>
+  </data>
+  <data name="IViewGTAutoIsocenterScript_Name" xml:space="preserve">
+    <value>iViewGT Auto-Isocenter Script</value>
+  </data>
+  <data name="IViewGTAutoIsocenter_Description" xml:space="preserve">
+    <value>Compute Isocenter Position for iViewGT RTImage</value>
+  </data>
+  <data name="IViewGTAutoIsocenter_Name" xml:space="preserve">
+    <value>iViewGT Auto-Isocenter</value>
+  </data>
+  <data name="RegenerateAVSScript_Description" xml:space="preserve">
+    <value>Regenerate AVS Script</value>
+  </data>
+  <data name="RegenerateAVSScript_Name" xml:space="preserve">
+    <value>Regenerate AVS Script</value>
+  </data>
+  <data name="PotdScriptCancelable_Description" xml:space="preserve">
+    <value>The PotD script type is used by the PotD IQ enabled feature.</value>
+  </data>
+  <data name="PotdScriptCancelable_Name" xml:space="preserve">
+    <value>PotD Script (Cancelable)</value>
+  </data>
+  <data name="RODoseChartPotdTreat" xml:space="preserve">
+    <value>PotD Treat</value>
+  </data>
+  <data name="RODoseChartPotdTreat_Description" xml:space="preserve">
+    <value>PotD-only trigger point for Radiotherapy treatment</value>
+  </data>
+  <data name="DiagnosisAffirmed_Description" xml:space="preserve">
+    <value>A trigger that is invoked after a diagnosis has been affirmed</value>
+  </data>
+  <data name="DiagnosisAffirmed_Name" xml:space="preserve">
+    <value>Diagnosis Affirmed</value>
+  </data>
+  <data name="SubCategory_Diagnosis" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
+  <data name="DiagnosisScript_Description" xml:space="preserve">
+    <value>A diagnosis script type can be used by any IQ Enabled Feature which is related to a diagnosis.  For example, Diagnosis Affirmed.</value>
+  </data>
+  <data name="DiagnosisScript_Name" xml:space="preserve">
+    <value>Diagnosis Script</value>
+  </data>
+  <data name="SchAppointmentScheduled_Description" xml:space="preserve">
+    <value>IQ script trigger which is invoked when a new appointment or a wave is scheduled on the Appointment Slip window. The trigger is also invoked when the activity for an existing appointment is changed on the Appointment Slip window.
+Scheduling appointments via series, or scheduling pending appointments by drag and drop is not supported.</value>
+  </data>
+  <data name="SchAppointmentScheduled_Name" xml:space="preserve">
+    <value>Appointment Scheduled</value>
+  </data>
+  <data name="CdsCarePlanForm_Description" xml:space="preserve">
+    <value>Clinical Decision Support Care Plan Script Description</value>
+  </data>
+  <data name="CdsCarePlanForm_Name" xml:space="preserve">
+    <value>Clinical Decision Support Care Plan Script</value>
+  </data>
+  <data name="CdsCarePlanApproved_Description" xml:space="preserve">
+    <value>IQ script user interface trigger which is invoked when CDS care plan is imported and assigned to a patient.</value>
+  </data>
+  <data name="CdsCarePlanApproved_Name" xml:space="preserve">
+    <value>CDS Care Plan Approved</value>
+  </data>
+  <data name="CdsCarePlanCanceled_Description" xml:space="preserve">
+    <value>IQ script user interface trigger which is invoked when importing CDS care plan is canceled.</value>
+  </data>
+  <data name="CdsCarePlanCanceled_Name" xml:space="preserve">
+    <value>CDS Care Plan Canceled</value>
+  </data>
+  <data name="CdsCarePlanPending_Description" xml:space="preserve">
+    <value>IQ script user interface trigger which is invoked when CDS care plan is imported in pending status.</value>
+  </data>
+  <data name="CdsCarePlanPending_Name" xml:space="preserve">
+    <value>CDS Care Plan Pending</value>
+  </data>
+  <data name="CdsCarePlanSelectedLibrary_Description" xml:space="preserve">
+    <value>IQ script user interface trigger which is invoked when user selected a similar care plan from the MOSAIQ care plan library.</value>
+  </data>
+  <data name="CdsCarePlanSelectedLibrary_Name" xml:space="preserve">
+    <value>CDS MOSAIQ Care Plan Selection</value>
+  </data>
+  <data name="CdsCarePlanError_Description" xml:space="preserve">
+    <value>CDS Care Plan Error Occurred</value>
+  </data>
+  <data name="CdsCarePlanError_Name" xml:space="preserve">
+    <value>CDS Care Plan Error</value>
+  </data>
+  <data name="SubCategory_CarePlans" xml:space="preserve">
+    <value>Care Plans</value>
+  </data>
+</root>

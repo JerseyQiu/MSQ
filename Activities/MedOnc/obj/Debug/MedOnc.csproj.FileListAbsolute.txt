@@ -1,0 +1,14 @@
+C:\RD\33\Run\Impac.Mosaiq.IQ.Activities.MedOnc.dll
+C:\RD\33\Run\Impac.Mosaiq.IQ.Activities.MedOnc.pdb
+C:\RD\33\Mosaiq\IQ\Activities\MedOnc\obj\Debug\MedOnc.csprojResolveAssemblyReference.cache
+C:\RD\33\Mosaiq\IQ\Activities\MedOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.MedOnc.Strings.resources
+C:\RD\33\Mosaiq\IQ\Activities\MedOnc\obj\Debug\MedOnc.csproj.GenerateResource.Cache
+C:\RD\33\Mosaiq\IQ\Activities\MedOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.MedOnc.dll
+C:\RD\33\Mosaiq\IQ\Activities\MedOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.MedOnc.pdb
+C:\Docs\IQ\Activities\MedOnc\obj\Debug\MedOnc.csprojResolveAssemblyReference.cache
+C:\Docs\IQ\Activities\MedOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.MedOnc.Strings.resources
+C:\Docs\IQ\Activities\MedOnc\obj\Debug\MedOnc.csproj.GenerateResource.Cache
+C:\Docs\IQ\Activities\MedOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.MedOnc.dll
+C:\Docs\IQ\Activities\MedOnc\obj\Debug\Impac.Mosaiq.IQ.Activities.MedOnc.pdb
+C:\Run\Impac.Mosaiq.IQ.Activities.MedOnc.dll
+C:\Run\Impac.Mosaiq.IQ.Activities.MedOnc.pdb

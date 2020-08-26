@@ -1,0 +1,16 @@
+C:\RD\33\Run\Impac.Mosaiq.IQ.Activities.Queries.dll
+C:\RD\33\Run\Impac.Mosaiq.IQ.Activities.Queries.pdb
+C:\RD\33\Mosaiq\IQ\Activities\Queries\obj\Debug\Queries.csprojResolveAssemblyReference.cache
+C:\RD\33\Mosaiq\IQ\Activities\Queries\obj\Debug\Impac.Mosaiq.IQ.Activities.Queries.Strings.resources
+C:\RD\33\Mosaiq\IQ\Activities\Queries\obj\Debug\Impac.Mosaiq.IQ.Activities.Queries.StringsNT.resources
+C:\RD\33\Mosaiq\IQ\Activities\Queries\obj\Debug\Queries.csproj.GenerateResource.Cache
+C:\RD\33\Mosaiq\IQ\Activities\Queries\obj\Debug\Impac.Mosaiq.IQ.Activities.Queries.dll
+C:\RD\33\Mosaiq\IQ\Activities\Queries\obj\Debug\Impac.Mosaiq.IQ.Activities.Queries.pdb
+C:\Docs\IQ\Activities\Queries\obj\Debug\Queries.csprojResolveAssemblyReference.cache
+C:\Docs\IQ\Activities\Queries\obj\Debug\Impac.Mosaiq.IQ.Activities.Queries.Strings.resources
+C:\Docs\IQ\Activities\Queries\obj\Debug\Impac.Mosaiq.IQ.Activities.Queries.StringsNT.resources
+C:\Docs\IQ\Activities\Queries\obj\Debug\Queries.csproj.GenerateResource.Cache
+C:\Docs\IQ\Activities\Queries\obj\Debug\Impac.Mosaiq.IQ.Activities.Queries.dll
+C:\Docs\IQ\Activities\Queries\obj\Debug\Impac.Mosaiq.IQ.Activities.Queries.pdb
+C:\Run\Impac.Mosaiq.IQ.Activities.Queries.dll
+C:\Run\Impac.Mosaiq.IQ.Activities.Queries.pdb

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C98742FE-D777-45C5-8A1B-30122441C5CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Impac.Mosaiq.IQ.Activities.DICOM</RootNamespace>
+    <AssemblyName>Impac.Mosaiq.IQ.Activities.DICOM</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\run\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\..\..\run\Impac.Mosaiq.IQ.Activities.DICOM.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\run\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\..\..\run\Impac.Mosaiq.IQ.Activities.DICOM.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProcessDose\GetReferencePlanInstancesForADose.cs" />
+    <Compile Include="ProcessDose\WaitForDoseObjectPlanData.cs" />
+    <Compile Include="ProcessDose\CreateDoseVolume.cs" />
+    <Compile Include="ProcessDose\WaitForDoseObjectStructureSetData.cs" />
+    <Compile Include="ProcessImageSeries\ConvertExistingVolumes.cs" />
+    <Compile Include="ProcessImageSeries\PostRegenerateAvsForImageSeries.cs" />
+    <Compile Include="ProcessImageSeries\CreateAvsForImageSeries.cs" />
+    <Compile Include="ProcessDose\CreateDoseMatrixEntry.cs" />
+    <Compile Include="GeneratedAttributes.cs" />
+    <Compile Include="ProcessImageSeries\PurgeAvsForImageSeries.cs" />
+    <Compile Include="ProcessImageSeries\RegenerateAvsForImageSeries.cs" />
+    <Compile Include="ProcessPlan\PopulateLGKRegistryHoldingTableActivity.cs" />
+    <Compile Include="ProcessPlan\PopulatePlanAndBeamTablesActivity.cs" />
+    <Compile Include="ProcessRPS\ProcessRPSTablesActivity.cs" />
+    <Compile Include="ProcessRTImageFromIViewGT\CheckIViewGTAutoIsocExclusionsActivity.cs" />
+    <Compile Include="ProcessRTImageFromIViewGT\InsertIViewGTRTImagePositionActivity.cs" />
+    <Compile Include="ProcessRTImageFromIViewGT\LocateIViewGTRTImagePositionActivity.cs" />
+    <Compile Include="ProcessRTImageFromIViewGT\MoveIViewGTRTImageFileToStagingAreaActivity.cs" />
+    <Compile Include="ProcessSpatialRegistration\CreateFrameOfReferenceRelationshipRecord.cs" />
+    <Compile Include="ProcessSpatialRegistration\CreateOffsetRecord.cs" />
+    <Compile Include="ProcessSpatialRegistration\CreateRegistrationRecord.cs" />
+    <Compile Include="ProcessSpatialRegistration\DisplaySpatialRegistrationDataNavigator.cs" />
+    <Compile Include="ProcessSpatialRegistration\ExtractSpatialIsocenterCoordinates.cs" />
+    <Compile Include="ProcessSpatialRegistration\IdentifySpatialRegistrationObject.cs" />
+    <Compile Include="ProcessSpatialRegistration\IsInstanceSimpleAndGenericSpatialRegistration.cs" />
+    <Compile Include="ProcessSpatialRegistration\IsInstanceXVI5xSpatialRegistrationObject.cs" />
+    <Compile Include="ProcessSpatialRegistration\IsObjectTreatmentDeliveryBased.cs" />
+    <Compile Include="ProcessSpatialRegistration\ParseTreatmentDeliverySpatialRegistrationObject.cs" />
+    <Compile Include="ProcessSpatialRegistration\ParseTreatmentPlanningSpatialRegistrationObject.cs" />
+    <Compile Include="ProcessSpatialRegistration\ParseXVI5xSpatialRegistrationObject.cs" />
+    <Compile Include="ProcessSpatialRegistration\ProcessGenericSpatialRegistrationObject.cs" />
+    <Compile Include="ProcessSpatialRegistration\ProcessXVI5xSpatialRegistrationObject.cs" />
+    <Compile Include="ProcessSpatialRegistration\SendSroProcessedMessage.cs" />
+    <Compile Include="ProcessSpatialRegistration\UpdateFrameOfReferenceRelationshipRecord.cs" />
+    <Compile Include="ProcessSpatialRegistration\UpdateRegistrationRecord.cs" />
+    <Compile Include="ProcessSpatialRegistration\WaitForSpatialRegistrationImageData.cs" />
+    <Compile Include="ProcessSpatialRegistration\WaitForSpatialRegistrationRPSData.cs" />
+    <Compile Include="ProcessSpatialRegistration\WaitForSpatialRegistrationStructureSetData.cs" />
+    <Compile Include="ProcessSpatialRegistration\WaitForXVI5xSpatialRegistrationImageData.cs" />
+    <Compile Include="ProcessStructureSet\WaitForAVSFile.cs" />
+    <Compile Include="ProcessStructureSet\GenerateSurfaceMesh.cs" />
+    <Compile Include="ProcessStructureSet\CreateAnatomySets.cs" />
+    <Compile Include="ProcessStructureSet\CreateRelatedSeriesLinkRecordActivity.cs" />
+    <Compile Include="ProcessStructureSet\SaveSpatialIsocenterCoordinates.cs" />
+    <Compile Include="ProcessStructureSet\WaitForStructureSetObjectReferencedData.cs" />
+    <Compile Include="Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Printing.v11.1.Core, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v11.1, Version=11.1.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="IdeaBlade.Persistence, Version=3.7.5.0, Culture=neutral, PublicKeyToken=287b5094865421c0, processorArchitecture=MSIL" />
+    <Reference Include="IdeaBlade.Persistence.Rdb, Version=3.7.5.0, Culture=neutral, PublicKeyToken=287b5094865421c0, processorArchitecture=MSIL" />
+    <Reference Include="IdeaBlade.Rdb, Version=3.7.5.0, Culture=neutral, PublicKeyToken=287b5094865421c0, processorArchitecture=MSIL" />
+    <Reference Include="IdeaBlade.Util, Version=3.7.5.0, Culture=neutral, PublicKeyToken=287b5094865421c0, processorArchitecture=MSIL" />
+    <Reference Include="Impac.Mosaiq.BOM.Entities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.BOM.Entities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.BOM.SupportLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.BOM.SupportLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.Globals, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Core.Globals.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Core.Logger, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Core.Logger.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Dicom.DataBaseMonitor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Dicom.DataBaseMonitor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Dicom.DataBaseMonitorInterfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Dicom.DataBaseMonitorInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Dicom.DataServicesLayer, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Dicom.DataServicesLayer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Dicom.DataServicesLayerInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Dicom.DataServicesLayerInterface.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Impac.Mosaiq.Framework.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Run\Impac.Mosaiq.Framework.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\..\..\SDK\Microsoft.Bcl.1.1.10\lib\net40\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>..\..\..\..\SDK\Microsoft.Bcl.1.1.10\lib\net40\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.csproj">
+      <Project>{FEA47035-45A9-45C4-AF9D-C7F5FC1DE549}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Definitions\Definitions.csproj">
+      <Project>{9079DF6E-EC54-43F9-8858-97841FE7480C}</Project>
+      <Name>Definitions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Framework\Framework.csproj">
+      <Project>{D752CB5F-5AB9-4183-B211-07334C9FE262}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="C:\RD\33\SDK\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('C:\RD\33\SDK\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('C:\RD\33\SDK\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references libraries within the MOSAIQ SDK that are missing on this computer." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('C:\RD\33\SDK\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references libraries within the MOSAIQ SDK. Build the project again to include these libraries." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <PropertyGroup>
+    <SkipValidatePackageReferences>true</SkipValidatePackageReferences>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>$(TargetDir)AttributeGenerator.exe $(ProjectDir)Strings.resx $(ProjectDir)GeneratedAttributes.cs $(TargetName)</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
