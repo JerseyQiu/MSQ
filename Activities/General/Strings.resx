@@ -212,7 +212,7 @@
     <value>The number of days since this value was recorded.</value>
   </data>
   <data name="FlowsheetLookupActivity_AgeInDays_DisplayName" xml:space="preserve">
-    <value>Observation Age (Days)</value>
+    <value>Observation Age (Days) Changed</value>
   </data>
   <data name="FlowsheetLookupActivity_DisplayName" xml:space="preserve">
     <value>Flowsheet Lookup</value>
